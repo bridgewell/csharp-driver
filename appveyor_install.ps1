@@ -66,7 +66,6 @@ Start-Process python -ArgumentList "-m pip install psutil pyYaml six ccm" -Wait 
 Write-Host "Set execution Policy"
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
 
-
 #removing any existing ccm cluster
 Write-Host "Removing any existing ccm clusters"
 
