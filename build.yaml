@@ -20,7 +20,7 @@ build:
       # Define Cassandra runtime
       export CASSANDRA_VERSION=$CCM_CASSANDRA_VERSION
 
-      if [ -n $CSHARP_VERSION ]; then
+      if [ $CSHARP_VERSION = 'mono' ]; then
           # Define alias for Nuget
           nuget() {
                 mono /home/jenkins/nuget/NuGet.exe "$@"
