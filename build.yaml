@@ -6,31 +6,45 @@ cassandra:
   - 2.2
   - 3.0
   - 3.4
+env:
+  CSHARP_VERSION:
+    - mono
+    - netcore
+    - netcoreapp1.0
 build:
   - script: |
       # Set the Java paths (for CCM)
       export JAVA_HOME=$CCM_JAVA_HOME
       export PATH=$JAVA_HOME/bin:$PATH
 
-      # Define alias for Nuget
-      nuget() {
-        mono /home/jenkins/nuget/NuGet.exe "$@"
-      }
-      export -f nuget
-
       # Define Cassandra runtime
       export CASSANDRA_VERSION=$CCM_CASSANDRA_VERSION
 
-      # Install the required packages
-      export EnableNuGetPackageRestore=true
-      nuget restore src/Cassandra.sln
-      nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+      if [ -n $CSHARP_VERSION ]; then
+          # Define alias for Nuget
+          nuget() {
+                mono /home/jenkins/nuget/NuGet.exe "$@"
+          }
+          export -f nuget
+          # Install the required packages
+          export EnableNuGetPackageRestore=true
+          nuget restore src/Cassandra.sln
+          nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+          # Compile the driver and test code
+          xbuild /p:Configuration=Release /v:m /p:restorepackages=false src/Cassandra.sln
+          # Run the tests
+          echo "==========RUNNING FULL SUITE OF TESTS=========="
+          mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe src/Cassandra.Tests/bin/Release/Cassandra.Tests.dll src/Cassandra.IntegrationTests/bin/Release/Cassandra.IntegrationTests.dll -labels -exclude=long,duration
 
-      # Compile the driver and test code
-      xbuild /p:Configuration=Release /v:m /p:restorepackages=false src/Cassandra.sln
+      else
+          # Install the required packages
+          dotnet restore
 
-      # Run the tests
-      echo "==========RUNNING FULL SUITE OF TESTS=========="
-      mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe src/Cassandra.Tests/bin/Release/Cassandra.Tests.dll src/Cassandra.IntegrationTests/bin/Release/Cassandra.IntegrationTests.dll -labels -exclude=long,duration
+          # Run the tests
+          echo "==========RUNNING FULL SUITE OF TESTS=========="
+          cd src/Cassandra.Tests
+          
+          dotnet test -f $CSHARP_VERSION --where:cat=short --work=results/$CSHARP_VERSION
+      fi
   - nunit:
     - "TestResult.xml"
