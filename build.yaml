@@ -10,7 +10,6 @@ env:
   CSHARP_VERSION:
     - mono
     - netcore
-    - netcoreapp1.0
 build:
   - script: |
       # Set the Java paths (for CCM)
@@ -19,8 +18,10 @@ build:
 
       # Define Cassandra runtime
       export CASSANDRA_VERSION=$CCM_CASSANDRA_VERSION
+      echo "==========setting cassandra version=========="
 
       if [ $CSHARP_VERSION = 'mono' ]; then
+          echo "==========csharp verion mono=========="
           # Define alias for Nuget
           nuget() {
                 mono /home/jenkins/nuget/NuGet.exe "$@"
@@ -37,6 +38,7 @@ build:
           mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe src/Cassandra.Tests/bin/Release/Cassandra.Tests.dll src/Cassandra.IntegrationTests/bin/Release/Cassandra.IntegrationTests.dll -labels -exclude=long,duration
 
       else
+          echo "==========csharp verion netcore=========="
           # Install the required packages
           dotnet restore
 
@@ -44,7 +46,7 @@ build:
           echo "==========RUNNING FULL SUITE OF TESTS=========="
           cd src/Cassandra.Tests
           
-          dotnet test -f netcoreapp1.0 --where:cat=short --work=results/netcore
+          dotnet test -f netcoreapp1.0 --where:cat=short --work=../../testresults
       fi
   - nunit:
     - "TestResult.xml"
