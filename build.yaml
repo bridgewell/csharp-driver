@@ -44,7 +44,7 @@ build:
           echo "==========RUNNING FULL SUITE OF TESTS=========="
           cd src/Cassandra.Tests
           
-          dotnet test -f $CSHARP_VERSION --where:cat=short --work=results/$CSHARP_VERSION
+          dotnet test -f netcoreapp1.0 --where:cat=short --work=results/netcore
       fi
   - nunit:
     - "TestResult.xml"
