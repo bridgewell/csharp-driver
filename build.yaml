@@ -35,7 +35,7 @@ build:
           xbuild /p:Configuration=Release /v:m /p:restorepackages=false src/Cassandra.sln
           # Run the tests
           echo "==========RUNNING FULL SUITE OF TESTS=========="
-          mono ./testrunner/NUnit.ConsoleRunner.3.4.1/tools/nunit3-console.exe src/Cassandra.Tests/bin/Release/Cassandra.Tests.dll src/Cassandra.IntegrationTests/bin/Release/Cassandra.IntegrationTests.dll --where:cat=short --labels=All --format=nunit2 --trace=Verbose
+          mono ./testrunner/NUnit.ConsoleRunner.3.4.1/tools/nunit3-console.exe src/Cassandra.Tests/bin/Release/Cassandra.Tests.dll src/Cassandra.IntegrationTests/bin/Release/Cassandra.IntegrationTests.dll --where:cat=short --labels=All --result:"TestResult.xml;format=nunit2" --trace=Verbose
 
       else
           echo "==========csharp verion netcore=========="
@@ -46,7 +46,7 @@ build:
           echo "==========RUNNING FULL SUITE OF TESTS=========="
           cd src/Cassandra.Tests
           
-          dotnet test -f netcoreapp1.0 --work=../../ --format=nunit2 --trace=Verbose
+          dotnet test -f netcoreapp1.0 --work=../../ --result:"TestResult.xml;format=nunit2" --trace=Verbose
       fi
   - nunit:
     - "TestResult.xml"
