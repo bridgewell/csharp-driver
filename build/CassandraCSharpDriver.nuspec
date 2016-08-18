@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
-        <id>CassandraCSharpDriver</id>
+        <id>BWCassandraCSharpDriver</id>
         <!-- It will be overridden by the nuget command if -version is specified -->
         <version>0.0.0</version>
         <title>DataStax C# Driver for Apache Cassandra</title>
