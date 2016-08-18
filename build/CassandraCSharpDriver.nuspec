@@ -4,7 +4,7 @@
         <id>BWCassandraCSharpDriver</id>
         <!-- It will be overridden by the nuget command if -version is specified -->
         <version>0.0.0</version>
-        <title>DataStax C# Driver for Apache Cassandra</title>
+        <title>DataStax C# Driver for Apache Cassandra with BWCassandra namespace</title>
         <authors>DataStax</authors>
         <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
         <projectUrl>https://github.com/datastax/csharp-driver</projectUrl>
