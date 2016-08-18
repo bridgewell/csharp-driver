@@ -9,7 +9,7 @@
         <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
         <projectUrl>https://github.com/datastax/csharp-driver</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <summary>A modern, feature-rich and highly tunable C# client library for Apache Cassandra</summary>
+        <summary>A modern, feature-rich and highly tunable C# client library for Apache Cassandra with BWCassandra namespace</summary>
         <description>
           A modern, feature-rich and highly tunable C# client library for Apache Cassandra (1.2+) and DataStax Enterprise (3.1+) using exclusively Cassandra&#39;s binary protocol and Cassandra Query Language v3.
           Features: Sync and Async API; Simple, Prepared and Batch statements; Asynchronous IO, parallel execution, request pipelining; Connection pooling; Auto node discovery.
