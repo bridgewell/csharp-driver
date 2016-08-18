@@ -18,7 +18,7 @@ using System;
 using System.Net;
 using System.Text;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// A simple <see cref="IAuthProvider"/> implementation. 

@@ -14,7 +14,7 @@
 //   limitations under the License.
 //
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  Exception thrown when a query attemps to create a keyspace or table that

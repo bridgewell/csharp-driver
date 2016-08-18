@@ -17,7 +17,7 @@
 using System;
 using System.Linq.Expressions;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     public static class CqlQueryExtensions
     {

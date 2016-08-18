@@ -5,13 +5,13 @@ using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.IntegrationTests.TestClusterManagement;
-using Cassandra.Tasks;
-using Cassandra.Tests;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestClusterManagement;
+using BWCassandra.Tasks;
+using BWCassandra.Tests;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [TestFixture, Category("long")]
     public class SpeculativeExecutionLongTests : TestGlobals
@@ -32,7 +32,7 @@ namespace Cassandra.IntegrationTests.Core
             var builder = Cluster.Builder()
                 .AddContactPoint(_testCluster.InitialContactPoint)
                 .WithSpeculativeExecutionPolicy(speculativeExecutionPolicy)
-                .WithLoadBalancingPolicy(lbp ?? Cassandra.Policies.DefaultLoadBalancingPolicy)
+                .WithLoadBalancingPolicy(lbp ?? BWCassandra.Policies.DefaultLoadBalancingPolicy)
                 .WithRetryPolicy(DowngradingConsistencyRetryPolicy.Instance)
                 .WithSocketOptions(new SocketOptions().SetReadTimeoutMillis(0));
             if (pooling != null)

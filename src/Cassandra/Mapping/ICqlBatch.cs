@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Cassandra.Mapping
+namespace BWCassandra.Mapping
 {
     /// <summary>
     /// Represents a batch of CQL statements.  Use the write methods (Insert, Update, Delete, etc.) to add statements to the batch.

@@ -16,7 +16,7 @@
 
 using System.Collections.Generic;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  The policy that decides which Cassandra hosts to contact for each new query.

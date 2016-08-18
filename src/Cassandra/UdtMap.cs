@@ -19,9 +19,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-﻿using Cassandra.Serialization;
+﻿using BWCassandra.Serialization;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Represents a map between a UDT in Cassandra and a .NET Type, including data on how to map from UDT field names

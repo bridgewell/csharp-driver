@@ -21,10 +21,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Numerics;
-using Cassandra.Serialization;
-using Cassandra.Serialization.Primitive;
+using BWCassandra.Serialization;
+using BWCassandra.Serialization.Primitive;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class SerializerTests

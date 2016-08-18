@@ -20,10 +20,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
 using System.Threading;
-﻿using Cassandra.IntegrationTests.TestBase;
+﻿using BWCassandra.IntegrationTests.TestBase;
 ﻿using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [Category("short")]
     public class SessionExecuteAsyncTests : SharedClusterTest

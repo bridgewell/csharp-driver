@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Cassandra.Mapping.Statements;
+using BWCassandra.Mapping.Statements;
 
-namespace Cassandra.Mapping
+namespace BWCassandra.Mapping
 {
     /// <summary>
     /// A batch of CQL statements.

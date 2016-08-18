@@ -14,7 +14,7 @@
 //   limitations under the License.
 //
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  Options to configure low-level socket options for the connections kept to the

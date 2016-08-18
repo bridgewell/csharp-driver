@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Cassandra.Data.Linq;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.Mapping;
-using Cassandra.Mapping.Attributes;
+using BWCassandra.Data.Linq;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.Mapping;
+using BWCassandra.Mapping.Attributes;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Mapping.Tests
+namespace BWCassandra.IntegrationTests.Mapping.Tests
 {
     [Category("short")]
     public class Counter : SharedClusterTest
@@ -96,11 +96,11 @@ namespace Cassandra.IntegrationTests.Mapping.Tests
 
         class PocoWithCounterAttribute
         {
-            [Cassandra.Mapping.Attributes.Counter]
+            [BWCassandra.Mapping.Attributes.Counter]
             public long Counter;
-            [Cassandra.Mapping.Attributes.PartitionKey(1)]
+            [BWCassandra.Mapping.Attributes.PartitionKey(1)]
             public Guid KeyPart1;
-            [Cassandra.Mapping.Attributes.PartitionKey(2)]
+            [BWCassandra.Mapping.Attributes.PartitionKey(2)]
             public Decimal KeyPart2;
         }
 

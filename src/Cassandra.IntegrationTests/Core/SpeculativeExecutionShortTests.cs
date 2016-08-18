@@ -7,11 +7,11 @@ using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.Tests;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.Tests;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [TestFixture, Category("short"), Timeout(60000)]
     public class SpeculativeExecutionShortTests : SharedClusterTest
@@ -27,7 +27,7 @@ namespace Cassandra.IntegrationTests.Core
             var builder = Cluster.Builder()
                 .AddContactPoint(TestCluster.InitialContactPoint)
                 .WithSpeculativeExecutionPolicy(speculativeExecutionPolicy)
-                .WithLoadBalancingPolicy(lbp ?? Cassandra.Policies.DefaultLoadBalancingPolicy)
+                .WithLoadBalancingPolicy(lbp ?? BWCassandra.Policies.DefaultLoadBalancingPolicy)
                 .WithRetryPolicy(DowngradingConsistencyRetryPolicy.Instance)
                 .WithSocketOptions(new SocketOptions().SetReadTimeoutMillis(0));
             if (pooling != null)

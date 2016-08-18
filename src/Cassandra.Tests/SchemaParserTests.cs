@@ -4,12 +4,12 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using Cassandra.Tasks;
+using BWCassandra.Tasks;
 using Moq;
 using NUnit.Framework;
-using SortOrder = Cassandra.DataCollectionMetadata.SortOrder;
+using SortOrder = BWCassandra.DataCollectionMetadata.SortOrder;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class SchemaParserTests

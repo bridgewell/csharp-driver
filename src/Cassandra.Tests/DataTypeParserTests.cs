@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cassandra.Serialization;
+using BWCassandra.Serialization;
 using NUnit.Framework;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class DataTypeParserTests

@@ -15,12 +15,12 @@
 //
 using System;
 using System.Text;
-using Cassandra.Data;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.IntegrationTests.TestClusterManagement;
+using BWCassandra.Data;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestClusterManagement;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Data
+namespace BWCassandra.IntegrationTests.Data
 {
     [TestFixture, Category("short")]
     public class AdoBasicTests : SharedClusterTest

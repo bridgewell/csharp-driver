@@ -14,7 +14,7 @@
 //   limitations under the License.
 //
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  The default retry policy. <p> This policy retries queries in only two cases:

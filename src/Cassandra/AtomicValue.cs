@@ -16,7 +16,7 @@
 
 using System.Threading;
 
-namespace Cassandra
+namespace BWCassandra
 {
     internal class AtomicValue<T>
     {

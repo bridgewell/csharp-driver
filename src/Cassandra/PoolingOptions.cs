@@ -16,7 +16,7 @@
 
 using System;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// <para>Represents the options related to connection pooling.</para>

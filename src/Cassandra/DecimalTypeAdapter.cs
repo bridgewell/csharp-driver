@@ -15,9 +15,9 @@
 //
 
 using System;
-using Cassandra.Serialization;
+using BWCassandra.Serialization;
 
-namespace Cassandra
+namespace BWCassandra
 {
     using System.Linq;
     using System.Numerics;

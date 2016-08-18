@@ -20,7 +20,7 @@ using System.Linq;
 using System.Net;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.TestBase
+namespace BWCassandra.IntegrationTests.TestBase
 {
     internal static class QueryTools
     {

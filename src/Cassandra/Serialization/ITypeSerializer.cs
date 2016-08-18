@@ -16,7 +16,7 @@
 
 using System;
 
-namespace Cassandra.Serialization
+namespace BWCassandra.Serialization
 {
     internal interface ITypeSerializer
     {

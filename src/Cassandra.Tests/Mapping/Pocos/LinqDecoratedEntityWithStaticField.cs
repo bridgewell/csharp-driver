@@ -1,7 +1,7 @@
-﻿using Cassandra.Data.Linq;
+﻿using BWCassandra.Data.Linq;
 #pragma warning disable 618
 
-namespace Cassandra.Tests.Mapping.Pocos
+namespace BWCassandra.Tests.Mapping.Pocos
 {
     [Table(Name = "Items", CaseSensitive = false)]
     public class LinqDecoratedEntityWithStaticField

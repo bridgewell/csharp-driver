@@ -1,6 +1,6 @@
 using System;
 
-namespace Cassandra.Mapping
+namespace BWCassandra.Mapping
 {
     /// <summary>
     /// Represents options available on a per-query basis.

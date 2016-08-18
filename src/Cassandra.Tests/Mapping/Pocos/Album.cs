@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Cassandra.Tests.Mapping.Pocos
+namespace BWCassandra.Tests.Mapping.Pocos
 {
     /// <summary>
     /// Represents an album that contains a UDT (Song)

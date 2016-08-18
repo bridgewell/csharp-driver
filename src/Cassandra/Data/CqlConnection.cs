@@ -18,7 +18,7 @@
 ﻿using System.Data;
 using System.Data.Common;
 
-namespace Cassandra.Data
+namespace BWCassandra.Data
 {
     /// <summary>
     /// Represents a CQL connection.

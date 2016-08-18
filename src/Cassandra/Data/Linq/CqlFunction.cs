@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     /// <summary>
     /// Represents a set of functions that are defined at CQL level

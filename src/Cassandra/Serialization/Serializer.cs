@@ -20,7 +20,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 
-namespace Cassandra.Serialization
+namespace BWCassandra.Serialization
 {
     /// <summary>
     /// Handles types serialization from binary form to objects and the other way around.

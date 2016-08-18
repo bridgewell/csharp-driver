@@ -18,7 +18,7 @@ using System;
 using System.Collections.Generic;
 
 // ReSharper disable once CheckNamespace
-namespace Cassandra
+namespace BWCassandra
 {
     [Flags]
     internal enum RowSetMetadataFlags

@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cassandra.Data.Linq;
-using Cassandra.IntegrationTests.Mapping.Structures;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.Mapping;
-using Cassandra.Tests.Mapping.FluentMappings;
+using BWCassandra.Data.Linq;
+using BWCassandra.IntegrationTests.Mapping.Structures;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.Mapping;
+using BWCassandra.Tests.Mapping.FluentMappings;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Mapping.Tests
+namespace BWCassandra.IntegrationTests.Mapping.Tests
 {
     /// <summary>
     /// Use predefined classes that contain fluent mapping to manage Linq-mapped resources

@@ -17,10 +17,10 @@
 using System;
 using System.Linq;
 using System.Numerics;
-using Cassandra.Serialization;
-using Cassandra.Serialization.Primitive;
+using BWCassandra.Serialization;
+using BWCassandra.Serialization.Primitive;
 
-namespace Cassandra.Tests.Extensions.Serializers
+namespace BWCassandra.Tests.Extensions.Serializers
 {
     /// <summary>
     /// A BigDecimal serializer

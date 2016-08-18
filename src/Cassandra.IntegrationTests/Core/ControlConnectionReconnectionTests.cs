@@ -5,13 +5,13 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.IntegrationTests.TestClusterManagement;
-using Cassandra.Tasks;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestClusterManagement;
+using BWCassandra.Tasks;
 using Moq;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [Category("short")]
     public class ControlConnectionReconnectionTests : TestGlobals
@@ -38,7 +38,7 @@ namespace Cassandra.IntegrationTests.Core
         {
             var lbp = new RoundRobinPolicy();
             var config = new Configuration(
-                new Cassandra.Policies(lbp, new ConstantReconnectionPolicy(1000), FallthroughRetryPolicy.Instance),
+                new BWCassandra.Policies(lbp, new ConstantReconnectionPolicy(1000), FallthroughRetryPolicy.Instance),
                 new ProtocolOptions(),
                 null,
                 new SocketOptions(),
@@ -76,7 +76,7 @@ namespace Cassandra.IntegrationTests.Core
         {
             var lbp = new RoundRobinPolicy();
             var config = new Configuration(
-                new Cassandra.Policies(lbp, new ConstantReconnectionPolicy(1000), FallthroughRetryPolicy.Instance),
+                new BWCassandra.Policies(lbp, new ConstantReconnectionPolicy(1000), FallthroughRetryPolicy.Instance),
                 new ProtocolOptions(),
                 null,
                 new SocketOptions(),
@@ -115,7 +115,7 @@ namespace Cassandra.IntegrationTests.Core
         {
             var lbp = new RoundRobinPolicy();
             var config = new Configuration(
-                new Cassandra.Policies(lbp, new ConstantReconnectionPolicy(1000), FallthroughRetryPolicy.Instance),
+                new BWCassandra.Policies(lbp, new ConstantReconnectionPolicy(1000), FallthroughRetryPolicy.Instance),
                 new ProtocolOptions(),
                 null,
                 new SocketOptions(),

@@ -18,9 +18,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Cassandra.Serialization;
+using BWCassandra.Serialization;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// It represents a big endian protocol-aware writer

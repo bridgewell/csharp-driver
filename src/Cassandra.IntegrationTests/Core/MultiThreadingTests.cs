@@ -14,8 +14,8 @@
 //   limitations under the License.
 //
 
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.IntegrationTests.TestClusterManagement;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestClusterManagement;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -25,7 +25,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [TestFixture, Category("long")]
     public class MultiThreadingTests : TestGlobals

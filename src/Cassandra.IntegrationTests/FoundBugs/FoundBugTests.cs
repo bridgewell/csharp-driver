@@ -20,11 +20,11 @@ using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Threading;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.IntegrationTests.TestClusterManagement;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestClusterManagement;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.FoundBugs
+namespace BWCassandra.IntegrationTests.FoundBugs
 {
     [TestFixture, Category("long")]
     public class FoundBugTests : TestGlobals
@@ -85,7 +85,7 @@ namespace Cassandra.IntegrationTests.FoundBugs
                 }
                 catch (Exception e)
                 {
-                    if (e.GetType() == typeof (Cassandra.NoHostAvailableException))
+                    if (e.GetType() == typeof (BWCassandra.NoHostAvailableException))
                     {
                         noHostAvailableExceptionWasCaught = true;
                     }
@@ -110,7 +110,7 @@ namespace Cassandra.IntegrationTests.FoundBugs
                 }
                 catch (Exception e)
                 {
-                    if (e.GetType() == typeof (Cassandra.NoHostAvailableException))
+                    if (e.GetType() == typeof (BWCassandra.NoHostAvailableException))
                     {
                         Trace.TraceInformation("Host still not up yet, waiting another one second ... ");
                         Thread.Sleep(1000);

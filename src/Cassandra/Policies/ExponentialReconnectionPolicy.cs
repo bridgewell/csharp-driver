@@ -16,7 +16,7 @@
 
 using System;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  A reconnection policy that waits exponentially longer between each

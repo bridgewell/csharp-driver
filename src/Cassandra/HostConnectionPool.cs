@@ -19,11 +19,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Cassandra.Collections;
-using Cassandra.Serialization;
-using Cassandra.Tasks;
+using BWCassandra.Collections;
+using BWCassandra.Serialization;
+using BWCassandra.Tasks;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Represents a pool of connections to a host

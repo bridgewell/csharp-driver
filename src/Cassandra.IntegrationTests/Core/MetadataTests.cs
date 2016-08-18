@@ -14,9 +14,9 @@
 //   limitations under the License.
 //
 
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.IntegrationTests.TestClusterManagement;
-using Cassandra.Tests;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestClusterManagement;
+using BWCassandra.Tests;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -24,9 +24,9 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using SortOrder = Cassandra.DataCollectionMetadata.SortOrder;
+using SortOrder = BWCassandra.DataCollectionMetadata.SortOrder;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [TestFixture, Category("long")]
     public class MetadataTests : TestGlobals

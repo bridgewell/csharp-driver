@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Cassandra.Mapping.TypeConversion
+namespace BWCassandra.Mapping.TypeConversion
 {
     /// <summary>
     /// A class that maps strings to enum values.  Uses a cache internally to speed lookups.

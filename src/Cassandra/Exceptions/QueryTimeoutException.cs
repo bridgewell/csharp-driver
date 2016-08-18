@@ -14,7 +14,7 @@
 //   limitations under the License.
 //
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  A Cassandra timeout during a query. Such an exception is returned when the

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using Cassandra.Mapping.Utils;
-using Cassandra.Serialization;
+using BWCassandra.Mapping.Utils;
+using BWCassandra.Serialization;
 
-namespace Cassandra.Mapping.Statements
+namespace BWCassandra.Mapping.Statements
 {
     /// <summary>
     /// A utility class capable of generating CQL statements for a POCO.

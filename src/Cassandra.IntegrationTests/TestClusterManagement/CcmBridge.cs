@@ -21,9 +21,9 @@ using System.IO;
 using System.Text;
 using System.Linq;
 using System.Threading;
-using Cassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestBase;
 
-namespace Cassandra.IntegrationTests.TestClusterManagement
+namespace BWCassandra.IntegrationTests.TestClusterManagement
 {
     public class CcmBridge : IDisposable
     {

@@ -15,11 +15,11 @@
 //
 
 using System;
-using Cassandra.Data.Linq;
+using BWCassandra.Data.Linq;
 using System.Diagnostics;
 #pragma warning disable 618
 
-namespace Cassandra.IntegrationTests.Linq.Structures
+namespace BWCassandra.IntegrationTests.Linq.Structures
 {
     public class Tweet
     {

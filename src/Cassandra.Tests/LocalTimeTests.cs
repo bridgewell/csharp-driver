@@ -5,7 +5,7 @@ using System.Text;
 using NUnit.Framework;
 // ReSharper disable ObjectCreationAsStatement
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class LocalTimeTests

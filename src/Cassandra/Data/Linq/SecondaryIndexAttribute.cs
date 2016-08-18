@@ -16,7 +16,7 @@
 
 using System;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     /// <summary>
     /// Determines that there is a secondary index defined for the column

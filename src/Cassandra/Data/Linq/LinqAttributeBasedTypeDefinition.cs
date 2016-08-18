@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using Cassandra.Mapping;
+using BWCassandra.Mapping;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     /// <summary>
     /// A type definition that uses Linq attributes on the class to determine its settings.
@@ -99,12 +99,12 @@ namespace Cassandra.Data.Linq
 
         internal static ITypeDefinition DetermineAttributes(Type type)
         {
-            if (type.GetCustomAttributes(typeof(Cassandra.Data.Linq.TableAttribute), true).Length > 0)
+            if (type.GetCustomAttributes(typeof(BWCassandra.Data.Linq.TableAttribute), true).Length > 0)
             {
                 return new LinqAttributeBasedTypeDefinition(type, null, null);
             }
             //Use the default mapping attributes
-            return new Cassandra.Mapping.Attributes.AttributeBasedTypeDefinition(type);
+            return new BWCassandra.Mapping.Attributes.AttributeBasedTypeDefinition(type);
         }
 
         public IColumnDefinition GetColumnDefinition(FieldInfo field)

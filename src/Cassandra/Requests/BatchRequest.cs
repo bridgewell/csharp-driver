@@ -17,9 +17,9 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Cassandra.Serialization;
+using BWCassandra.Serialization;
 
-namespace Cassandra.Requests
+namespace BWCassandra.Requests
 {
     internal class BatchRequest : ICqlRequest
     {

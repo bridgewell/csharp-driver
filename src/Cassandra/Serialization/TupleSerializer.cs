@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Cassandra.Serialization
+namespace BWCassandra.Serialization
 {
     internal class TupleSerializer : TypeSerializer<IStructuralEquatable>
     {

@@ -17,9 +17,9 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Cassandra.Tasks;
+using BWCassandra.Tasks;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     public abstract class Batch : Statement
     {

@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Cassandra.Data.Linq;
-using Cassandra.IntegrationTests.CqlFunctions.Structures;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.Mapping;
+using BWCassandra.Data.Linq;
+using BWCassandra.IntegrationTests.CqlFunctions.Structures;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.Mapping;
 using NUnit.Framework;
 #pragma warning disable 612
 
-namespace Cassandra.IntegrationTests.CqlFunctions.Tests
+namespace BWCassandra.IntegrationTests.CqlFunctions.Tests
 {
     [Category("short")]
     public class Token : SharedClusterTest

@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Cassandra.Data.Linq;
-using Cassandra.IntegrationTests.Linq.Structures;
+using BWCassandra.Data.Linq;
+using BWCassandra.IntegrationTests.Linq.Structures;
 using NUnit.Framework;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.Tests.Mapping.Pocos;
-using Cassandra.Tests.Mapping.TestData;
-using Cassandra.Mapping;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.Tests.Mapping.Pocos;
+using BWCassandra.Tests.Mapping.TestData;
+using BWCassandra.Mapping;
 
-namespace Cassandra.IntegrationTests.Linq.LinqMethods
+namespace BWCassandra.IntegrationTests.Linq.LinqMethods
 {
     [Category("short")]
     public class ExecutePagedTests : SharedClusterTest

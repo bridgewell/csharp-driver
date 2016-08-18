@@ -16,18 +16,18 @@
 
 using System.Diagnostics;
 using System.Runtime.ConstrainedExecution;
-using Cassandra.Data.Linq;
-using Cassandra.IntegrationTests.Linq.Structures;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.IntegrationTests.TestClusterManagement;
+using BWCassandra.Data.Linq;
+using BWCassandra.IntegrationTests.Linq.Structures;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestClusterManagement;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Cassandra.Mapping;
-using Cassandra.Mapping.Statements;
+using BWCassandra.Mapping;
+using BWCassandra.Mapping.Statements;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [Category("long")]
     public class ConsistencyTests : TestGlobals

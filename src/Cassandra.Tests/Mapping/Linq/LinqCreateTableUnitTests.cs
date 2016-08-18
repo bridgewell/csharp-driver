@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cassandra.Data.Linq;
-using Cassandra.Mapping;
-using Cassandra.Serialization;
-using Cassandra.Tests.Mapping.Pocos;
+using BWCassandra.Data.Linq;
+using BWCassandra.Mapping;
+using BWCassandra.Serialization;
+using BWCassandra.Tests.Mapping.Pocos;
 using Moq;
 using NUnit.Framework;
 
-namespace Cassandra.Tests.Mapping.Linq
+namespace BWCassandra.Tests.Mapping.Linq
 {
     [TestFixture]
     public class LinqCreateTableUnitTests : MappingTestBase
@@ -345,7 +345,7 @@ namespace Cassandra.Tests.Mapping.Linq
                 .Setup(s => s.Execute(It.IsAny<string>()))
                 .Returns(() => new RowSet())
                 .Callback<string>(q => createQuery = q);
-            var definition = new Cassandra.Mapping.Attributes.AttributeBasedTypeDefinition(typeof(DecoratedTimeSeries));
+            var definition = new BWCassandra.Mapping.Attributes.AttributeBasedTypeDefinition(typeof(DecoratedTimeSeries));
             var table = GetTable<DecoratedTimeSeries>(sessionMock.Object, definition);
             table.Create();
             //It contains Ignored props: Ignored1 and Ignored2

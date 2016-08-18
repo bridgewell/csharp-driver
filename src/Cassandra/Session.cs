@@ -20,16 +20,16 @@ using System.Net;
 using System.Threading;
 using System.Collections.Concurrent;
 using System.Threading.Tasks;
- using Cassandra.Tasks;
-using Cassandra.Requests;
-﻿using Cassandra.Serialization;
+ using BWCassandra.Tasks;
+using BWCassandra.Requests;
+﻿using BWCassandra.Serialization;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Implementation of <see cref="ISession"/>.
     /// </summary>
-    /// <inheritdoc cref="Cassandra.ISession" />
+    /// <inheritdoc cref="BWCassandra.ISession" />
     public class Session : ISession
     {
         private readonly Serializer _serializer;

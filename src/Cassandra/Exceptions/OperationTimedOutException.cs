@@ -2,7 +2,7 @@
 using System.Net;
 
 // ReSharper disable once CheckNamespace
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Exception that thrown on a client-side timeout, when the client didn't hear back from the server within <see cref="SocketOptions.ReadTimeoutMillis"/>.

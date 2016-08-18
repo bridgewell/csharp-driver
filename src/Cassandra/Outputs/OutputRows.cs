@@ -19,7 +19,7 @@ using System.Collections.Generic;
 using System.Threading;
 
 // ReSharper disable CheckNamespace
-namespace Cassandra
+namespace BWCassandra
 {
     internal class OutputRows : IOutput
     {

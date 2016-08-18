@@ -17,16 +17,16 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Cassandra.Data.Linq;
-using Cassandra.IntegrationTests.Mapping.Structures;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.IntegrationTests.TestClusterManagement;
-using Cassandra.Mapping;
-using Cassandra.Tests.Mapping.FluentMappings;
-using Cassandra.Tests.Mapping.Pocos;
+using BWCassandra.Data.Linq;
+using BWCassandra.IntegrationTests.Mapping.Structures;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestClusterManagement;
+using BWCassandra.Mapping;
+using BWCassandra.Tests.Mapping.FluentMappings;
+using BWCassandra.Tests.Mapping.Pocos;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Mapping.Tests
+namespace BWCassandra.IntegrationTests.Mapping.Tests
 {
     [Category("short")]
     public class Fetch : SharedClusterTest
@@ -344,9 +344,9 @@ namespace Cassandra.IntegrationTests.Mapping.Tests
             var mapper = new Mapper(_session, new MappingConfiguration());
             _session.Execute("CREATE TYPE song (id uuid, title text, artist text)");
             _session.Execute("CREATE TABLE albums (id uuid primary key, name text, songs list<frozen<song>>)");
-            _session.UserDefinedTypes.Define(UdtMap.For<Cassandra.Tests.Mapping.Pocos.Song>());
+            _session.UserDefinedTypes.Define(UdtMap.For<BWCassandra.Tests.Mapping.Pocos.Song>());
             _session.Execute("INSERT INTO albums (id, name, songs) VALUES (uuid(), 'Legend', [{id: uuid(), title: 'Africa Unite', artist: 'Bob Marley'}])");
-            var result = mapper.Fetch<Cassandra.Tests.Mapping.Pocos.Album>("SELECT * from albums LIMIT 1").ToList();
+            var result = mapper.Fetch<BWCassandra.Tests.Mapping.Pocos.Album>("SELECT * from albums LIMIT 1").ToList();
             Assert.AreEqual(1, result.Count);
             var album = result[0];
             Assert.AreEqual("Legend", album.Name);

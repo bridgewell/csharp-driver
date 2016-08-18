@@ -15,7 +15,7 @@
 //
 using System;
 
-namespace Cassandra.Serialization.Primitive
+namespace BWCassandra.Serialization.Primitive
 {
     internal class DateTimeOffsetSerializer : TypeSerializer<DateTimeOffset>
     {

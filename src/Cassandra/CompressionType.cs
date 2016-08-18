@@ -14,7 +14,7 @@
 //   limitations under the License.
 //
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  Compression supported by the Cassandra binary protocol.

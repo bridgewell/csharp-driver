@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Cassandra.Tests.Mapping.TestData
+namespace BWCassandra.Tests.Mapping.TestData
 {
     /// <summary>
     /// Static utility class to help with generating test data.

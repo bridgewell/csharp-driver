@@ -14,14 +14,14 @@
 //   limitations under the License.
 //
 
-using Cassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestBase;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Cassandra.Serialization;
+using BWCassandra.Serialization;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [Category("short")]
     public class CustomTypeTests : SharedClusterTest

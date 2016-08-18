@@ -17,9 +17,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Text;
-using Cassandra.Serialization;
+using BWCassandra.Serialization;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Represents a protocol-aware forward reader 

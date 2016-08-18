@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cassandra.Mapping.Attributes
+namespace BWCassandra.Mapping.Attributes
 {
     /// <summary>
     /// Indicates that the property or field is part of the Partition Key

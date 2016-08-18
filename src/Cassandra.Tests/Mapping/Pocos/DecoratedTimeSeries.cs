@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cassandra.Mapping.Attributes;
+using BWCassandra.Mapping.Attributes;
 
-namespace Cassandra.Tests.Mapping.Pocos
+namespace BWCassandra.Tests.Mapping.Pocos
 {
     [Table(Name = "tbl1", Keyspace = "ks1", CaseSensitive = true)]
     public class DecoratedTimeSeries

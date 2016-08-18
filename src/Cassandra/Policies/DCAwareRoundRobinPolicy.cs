@@ -20,7 +20,7 @@ using System.Threading;
 using System.Linq;
 using System.Net;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  A data-center aware Round-robin load balancing policy. <p> This policy

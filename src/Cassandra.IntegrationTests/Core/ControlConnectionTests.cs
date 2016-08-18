@@ -5,10 +5,10 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using NUnit.Framework;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.IntegrationTests.TestClusterManagement;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestClusterManagement;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [Category("short")]
     public class ControlConnectionTests : TestGlobals

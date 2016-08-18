@@ -19,7 +19,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  Basic information on the execution of a query. <p> This provides the

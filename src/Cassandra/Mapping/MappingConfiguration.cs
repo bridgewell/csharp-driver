@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Cassandra.Mapping.Statements;
-using Cassandra.Mapping.TypeConversion;
-using Cassandra.Mapping.Utils;
+using BWCassandra.Mapping.Statements;
+using BWCassandra.Mapping.TypeConversion;
+using BWCassandra.Mapping.Utils;
 
-namespace Cassandra.Mapping
+namespace BWCassandra.Mapping
 {
     /// <summary>
     /// Stores the mapping definitions to be used by the Mapper and Linq components.

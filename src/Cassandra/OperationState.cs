@@ -21,12 +21,12 @@ using System.Linq;
 using System.Text;
 ﻿using System.Threading;
 ﻿using System.Threading.Tasks;
-﻿using Cassandra.Requests;
- using Cassandra.Responses;
- using Cassandra.Tasks;
+﻿using BWCassandra.Requests;
+ using BWCassandra.Responses;
+ using BWCassandra.Tasks;
 ﻿using Microsoft.IO;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Represents the state of the ongoing operation for the Connection

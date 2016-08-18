@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Cassandra.Data.Linq;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.Mapping;
+using BWCassandra.Data.Linq;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.Mapping;
 using NUnit.Framework;
 #pragma warning disable 618
 #pragma warning disable 612
 
-namespace Cassandra.IntegrationTests.Mapping.Tests
+namespace BWCassandra.IntegrationTests.Mapping.Tests
 {
     [Category("short")]
     public class CqlClientTest : SharedClusterTest
@@ -88,27 +88,27 @@ namespace Cassandra.IntegrationTests.Mapping.Tests
         /// Test Classes
         ////////////////////////////////////////////////////
 
-        [Cassandra.Data.Linq.Table("poco1")]
+        [BWCassandra.Data.Linq.Table("poco1")]
         private class Poco1
         {
-            [Cassandra.Data.Linq.PartitionKeyAttribute]
-            [Cassandra.Mapping.Attributes.PartitionKey]
-            [Cassandra.Data.Linq.Column("somestring1")]
+            [BWCassandra.Data.Linq.PartitionKeyAttribute]
+            [BWCassandra.Mapping.Attributes.PartitionKey]
+            [BWCassandra.Data.Linq.Column("somestring1")]
             public string SomeString1 = "somevalue_1_";
 
-            [Cassandra.Data.Linq.Column("somedouble1")]
+            [BWCassandra.Data.Linq.Column("somedouble1")]
             public double SomeDouble1 = 1;
         }
 
-        [Cassandra.Data.Linq.Table("poco2")]
+        [BWCassandra.Data.Linq.Table("poco2")]
         private class Poco2
         {
-            [Cassandra.Data.Linq.PartitionKeyAttribute]
-            [Cassandra.Mapping.Attributes.PartitionKey]
-            [Cassandra.Data.Linq.Column("somestring2")]
+            [BWCassandra.Data.Linq.PartitionKeyAttribute]
+            [BWCassandra.Mapping.Attributes.PartitionKey]
+            [BWCassandra.Data.Linq.Column("somestring2")]
             public string SomeString2 = "somevalue_2_";
 
-            [Cassandra.Data.Linq.Column("somedouble2")]
+            [BWCassandra.Data.Linq.Column("somedouble2")]
             public double SomeDouble2 = 2;
         }
 

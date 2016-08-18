@@ -16,7 +16,7 @@
 
 using System;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  An exception indicating that a query cannot be executed because it is

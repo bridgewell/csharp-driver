@@ -17,12 +17,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Cassandra.IntegrationTests.Policies.Util;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.IntegrationTests.TestClusterManagement;
+using BWCassandra.IntegrationTests.Policies.Util;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestClusterManagement;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Policies.Tests
+namespace BWCassandra.IntegrationTests.Policies.Tests
 {
     [TestFixture, Category("long")]
     public class ConsistencyTests : TestGlobals

@@ -17,9 +17,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Cassandra.Serialization;
+using BWCassandra.Serialization;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  Represents a prepared statement, a query with bound variables that has been

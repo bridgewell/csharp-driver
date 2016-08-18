@@ -16,9 +16,9 @@
 
 using System;
 using System.Numerics;
-using Cassandra.Serialization;
+using BWCassandra.Serialization;
 
-namespace Cassandra
+namespace BWCassandra
 {
     public class BigIntegerTypeAdapter : ITypeAdapter
     {

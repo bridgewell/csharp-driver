@@ -23,9 +23,9 @@ using System.Linq;
 using Moq;
 using System.Threading.Tasks;
 using System.Threading;
-﻿using Cassandra.Requests;
+﻿using BWCassandra.Requests;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class PoliciesUnitTests

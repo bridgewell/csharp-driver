@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Cassandra.Mapping
+namespace BWCassandra.Mapping
 {
     /// <summary>
     /// Represents the result of a paged query, returned by manually paged query executions.

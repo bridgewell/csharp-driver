@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Cassandra.Mapping.Utils;
+using BWCassandra.Mapping.Utils;
 
-namespace Cassandra.Tests.Mapping.Pocos
+namespace BWCassandra.Tests.Mapping.Pocos
 {
     /// <summary>
     /// Test utility: Represents an application entity with most of single types as properties

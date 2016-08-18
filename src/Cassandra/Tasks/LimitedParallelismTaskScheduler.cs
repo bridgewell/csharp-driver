@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Cassandra.Tasks
+namespace BWCassandra.Tasks
 {
     /// <summary>
     /// A task scheduler that runs on top of the ThreadPool but schedules limited amount of task in parallel.

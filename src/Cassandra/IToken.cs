@@ -16,7 +16,7 @@
 
 using System;
 
-namespace Cassandra
+namespace BWCassandra
 {
     internal interface IToken : IComparable
     {

@@ -16,11 +16,11 @@
 
 using System;
 using System.Collections.Generic;
-using Cassandra.Data.Linq;
-using Cassandra.IntegrationTests.TestBase;
+using BWCassandra.Data.Linq;
+using BWCassandra.IntegrationTests.TestBase;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Linq.Structures
+namespace BWCassandra.IntegrationTests.Linq.Structures
 {
     public interface IAllDataTypesEntity
     {

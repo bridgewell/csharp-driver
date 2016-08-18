@@ -6,7 +6,7 @@ using System.Net.Sockets;
 using System.Text;
 using NUnit.Framework;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class BuilderTests

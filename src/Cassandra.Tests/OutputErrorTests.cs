@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     /// <summary>
     /// Tests for the Cassandra.OutputError class.

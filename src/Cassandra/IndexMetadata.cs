@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// A representation of a secondary index in Cassandra

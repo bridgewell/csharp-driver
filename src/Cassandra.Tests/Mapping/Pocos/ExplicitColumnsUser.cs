@@ -1,8 +1,8 @@
 ﻿using System;
-using Cassandra.Mapping;
-using Cassandra.Mapping.Attributes;
+using BWCassandra.Mapping;
+using BWCassandra.Mapping.Attributes;
 
-namespace  Cassandra.Tests.Mapping.Pocos
+namespace  BWCassandra.Tests.Mapping.Pocos
 {
     /// <summary>
     /// A user decorated with attributes indicating how it should be mapped, specifically the ExplicitColumnsAttribute.

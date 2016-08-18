@@ -16,7 +16,7 @@
 
 using System.Reflection;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     internal class CqlMthHelps
     {

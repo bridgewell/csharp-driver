@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using Cassandra.IntegrationTests.Policies.Util;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.IntegrationTests.TestClusterManagement;
-using Cassandra.Serialization;
+using BWCassandra.IntegrationTests.Policies.Util;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestClusterManagement;
+using BWCassandra.Serialization;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Policies.Tests
+namespace BWCassandra.IntegrationTests.Policies.Tests
 {
     [TestFixture, Category("short")]
     public class LoadBalancingPolicyShortTests : TestGlobals

@@ -16,7 +16,7 @@
 
 using System.Net;
 
-namespace Cassandra.Serialization.Primitive
+namespace BWCassandra.Serialization.Primitive
 {
     internal class IpAddressSerializer : TypeSerializer<IPAddress>
     {

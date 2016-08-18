@@ -16,7 +16,7 @@
 
 using System;
 
-namespace Cassandra.IntegrationTests.TestBase
+namespace BWCassandra.IntegrationTests.TestBase
 {
     /// <summary>
     /// Represents an error on the infrastructure setup

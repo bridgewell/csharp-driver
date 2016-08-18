@@ -16,7 +16,7 @@
 
 ﻿using System;
 
-namespace Cassandra
+namespace BWCassandra
 {
     public class RetryLoadBalancingPolicyEventArgs : EventArgs
     {

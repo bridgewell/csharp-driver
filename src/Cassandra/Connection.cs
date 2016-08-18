@@ -23,14 +23,14 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
-using Cassandra.Tasks;
-using Cassandra.Compression;
-using Cassandra.Requests;
-using Cassandra.Responses;
-using Cassandra.Serialization;
+using BWCassandra.Tasks;
+using BWCassandra.Compression;
+using BWCassandra.Requests;
+using BWCassandra.Responses;
+using BWCassandra.Serialization;
 using Microsoft.IO;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Represents a TCP connection to a Cassandra Node

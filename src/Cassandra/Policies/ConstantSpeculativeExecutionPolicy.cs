@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 // ReSharper disable once CheckNamespace
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// A <see cref="ISpeculativeExecutionPolicy"/> that schedules a given number of speculative 

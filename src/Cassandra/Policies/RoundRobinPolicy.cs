@@ -18,7 +18,7 @@ using System.Threading;
 using System.Linq;
 
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  A Round-robin load balancing policy. 

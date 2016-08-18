@@ -15,9 +15,9 @@
 //
 
 using System.IO;
-using Cassandra.Serialization;
+using BWCassandra.Serialization;
 
-namespace Cassandra.Requests
+namespace BWCassandra.Requests
 {
     internal class OptionsRequest : IRequest
     {

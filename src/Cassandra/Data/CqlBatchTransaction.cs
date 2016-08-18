@@ -19,7 +19,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Common;
 
-namespace Cassandra.Data
+namespace BWCassandra.Data
 {
     public sealed class CqlBatchTransaction : DbTransaction
     {

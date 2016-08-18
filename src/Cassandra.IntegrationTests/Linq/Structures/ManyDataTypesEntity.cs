@@ -16,12 +16,12 @@
 
 using System;
 using System.Collections.Generic;
-using Cassandra.Data.Linq;
-using Cassandra.IntegrationTests.TestBase;
+using BWCassandra.Data.Linq;
+using BWCassandra.IntegrationTests.TestBase;
 using NUnit.Framework;
 #pragma warning disable 618
 
-namespace Cassandra.IntegrationTests.Linq.Structures
+namespace BWCassandra.IntegrationTests.Linq.Structures
 {
     [AllowFiltering]
     [Table("ManyDataTypesEntity")]

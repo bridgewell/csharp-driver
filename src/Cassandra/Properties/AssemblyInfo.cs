@@ -17,7 +17,7 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-﻿using Cassandra;
+﻿using BWCassandra;
 
 // See the SharedAssemblyInfo.cs file for information shared by all assemblies
 [assembly: AssemblyTitle("Cassandra")]

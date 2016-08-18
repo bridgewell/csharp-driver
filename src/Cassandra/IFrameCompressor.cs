@@ -19,7 +19,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Defines the methods for frame compression and decompression

@@ -16,7 +16,7 @@
 
 using System;
 
-namespace Cassandra.IntegrationTests.TestBase
+namespace BWCassandra.IntegrationTests.TestBase
 {
     /// <summary>
     /// Quantifies the Cassandra version to determine whether a test should be run.

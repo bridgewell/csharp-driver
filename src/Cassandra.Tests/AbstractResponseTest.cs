@@ -16,11 +16,11 @@
 
 using System;
 using System.IO;
-using Cassandra.Responses;
-using Cassandra.Serialization;
+using BWCassandra.Responses;
+using BWCassandra.Serialization;
 using NUnit.Framework;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class AbstractResponseTest

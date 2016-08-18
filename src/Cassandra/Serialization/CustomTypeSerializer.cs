@@ -14,7 +14,7 @@
 //   limitations under the License.
 //
 
-namespace Cassandra.Serialization
+namespace BWCassandra.Serialization
 {
     /// <summary>
     /// Base serializer for custom types.

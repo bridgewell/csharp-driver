@@ -1,4 +1,4 @@
-﻿namespace  Cassandra.IntegrationTests.Mapping.Structures
+﻿namespace  BWCassandra.IntegrationTests.Mapping.Structures
 {
     public enum HairColor
     {

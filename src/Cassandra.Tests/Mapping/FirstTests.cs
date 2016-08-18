@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Cassandra.Tests.Mapping.Pocos;
-using Cassandra.Tests.Mapping.TestData;
+using BWCassandra.Tests.Mapping.Pocos;
+using BWCassandra.Tests.Mapping.TestData;
 using NUnit.Framework;
 
-namespace Cassandra.Tests.Mapping
+namespace BWCassandra.Tests.Mapping
 {
     /// <summary>
     /// Tests for First and FirstOrDefault methods on client.

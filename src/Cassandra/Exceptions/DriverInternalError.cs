@@ -16,7 +16,7 @@
 
 using System;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  An unexpected error happened internally. This should never be raise and

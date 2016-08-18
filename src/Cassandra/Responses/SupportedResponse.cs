@@ -14,7 +14,7 @@
 //   limitations under the License.
 //
 
-namespace Cassandra.Responses
+namespace BWCassandra.Responses
 {
     internal class SupportedResponse : Response
     {

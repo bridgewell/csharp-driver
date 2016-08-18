@@ -16,7 +16,7 @@
 
 using System;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     /// <summary>
     /// The ALLOW FILTERING option allows to explicitly allow queries that require filtering. 

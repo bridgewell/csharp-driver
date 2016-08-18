@@ -16,7 +16,7 @@
 
 using System;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     public class CqlToken
     {

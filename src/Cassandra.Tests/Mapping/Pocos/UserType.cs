@@ -1,4 +1,4 @@
-﻿namespace  Cassandra.Tests.Mapping.Pocos
+﻿namespace  BWCassandra.Tests.Mapping.Pocos
 {
     public enum UserType : int
     {

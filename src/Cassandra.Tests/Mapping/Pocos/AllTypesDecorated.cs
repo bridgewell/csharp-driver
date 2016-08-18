@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cassandra.Data.Linq;
+using BWCassandra.Data.Linq;
 #pragma warning disable 618
 
-namespace Cassandra.Tests.Mapping.Pocos
+namespace BWCassandra.Tests.Mapping.Pocos
 {
     /// <summary>
     /// Test utility: Represents an application entity with most of single types as properties

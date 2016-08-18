@@ -14,9 +14,9 @@
 //   limitations under the License.
 //
 
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.IntegrationTests.TestClusterManagement;
-using Cassandra.Tests;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestClusterManagement;
+using BWCassandra.Tests;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -25,9 +25,9 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Cassandra.IntegrationTests.Policies.Util;
+using BWCassandra.IntegrationTests.Policies.Util;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [TestFixture, Category("long")]
     public class StressTests : TestGlobals

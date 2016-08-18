@@ -17,7 +17,7 @@ using System;
 using System.IO;
 using System.Linq;
 
-namespace Cassandra
+namespace BWCassandra
 {
     internal class FrameHeader
     {

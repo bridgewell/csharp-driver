@@ -19,13 +19,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using Cassandra.Data.Linq;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.Mapping;
+using BWCassandra.Data.Linq;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.Mapping;
 using NUnit.Framework;
 #pragma warning disable 618
 
-namespace Cassandra.IntegrationTests.Mapping.Structures
+namespace BWCassandra.IntegrationTests.Mapping.Structures
 {
     [AllowFiltering]
     public class NestedCollectionsPoco

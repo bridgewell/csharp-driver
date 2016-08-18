@@ -14,10 +14,10 @@
 //   limitations under the License.
 //
 
-using Cassandra.Data;
+using BWCassandra.Data;
 using NUnit.Framework;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class CqlParameterCollectionTest

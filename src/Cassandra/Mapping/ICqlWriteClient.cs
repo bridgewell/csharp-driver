@@ -1,4 +1,4 @@
-﻿namespace Cassandra.Mapping
+﻿namespace BWCassandra.Mapping
 {
     /// <summary>
     /// The contract for synchronous write operations.

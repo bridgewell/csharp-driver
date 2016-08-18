@@ -16,7 +16,7 @@
 
 using System.Collections.Generic;
 
-namespace Cassandra
+namespace BWCassandra
 {
     internal class OutputOptions : IOutput
     {

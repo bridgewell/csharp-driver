@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Cassandra.Tasks;
+using BWCassandra.Tasks;
 
-namespace Cassandra.Serialization
+namespace BWCassandra.Serialization
 {
     /// <summary>
     /// A class containing methods for Cql types name parsing.

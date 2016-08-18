@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Cassandra.Mapping.Utils;
+using BWCassandra.Mapping.Utils;
 
-namespace Cassandra.Mapping
+namespace BWCassandra.Mapping
 {
     /// <summary>
     /// Represents data about a POCO and its mapping to Cassandra Rows in a table.

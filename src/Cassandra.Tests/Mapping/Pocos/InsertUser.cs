@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Cassandra.Mapping;
-using Cassandra.Mapping.Attributes;
+using BWCassandra.Mapping;
+using BWCassandra.Mapping.Attributes;
 
-namespace  Cassandra.Tests.Mapping.Pocos
+namespace  BWCassandra.Tests.Mapping.Pocos
 {
     [Table("users")]
     public class InsertUser

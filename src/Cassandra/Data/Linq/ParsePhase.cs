@@ -14,7 +14,7 @@
 //   limitations under the License.
 //
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     internal enum ParsePhase
     {

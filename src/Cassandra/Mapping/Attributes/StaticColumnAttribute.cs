@@ -16,7 +16,7 @@
 
 using System;
 
-namespace Cassandra.Mapping.Attributes
+namespace BWCassandra.Mapping.Attributes
 {
     /// <summary>
     /// Indicates that the property or field is a static column in Cassandra

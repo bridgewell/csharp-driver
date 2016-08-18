@@ -1,7 +1,7 @@
 ﻿using System;
-using Cassandra.Mapping;
+using BWCassandra.Mapping;
 
-namespace Cassandra.IntegrationTests.Mapping.Structures
+namespace BWCassandra.IntegrationTests.Mapping.Structures
 {
     /// <summary>
     /// Defines how to map the User class.

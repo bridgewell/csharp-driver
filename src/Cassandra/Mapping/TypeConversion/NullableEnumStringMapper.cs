@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Cassandra.Mapping.TypeConversion
+namespace BWCassandra.Mapping.TypeConversion
 {
     /// <summary>
     /// Static class for mapping between strings and nullable enums.  Uses a cache internally to speed lookups.

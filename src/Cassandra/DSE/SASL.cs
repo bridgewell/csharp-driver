@@ -18,7 +18,7 @@
 using System;
 using System.Text;
 
-namespace Cassandra
+namespace BWCassandra
 {
     internal static class SASL
     {

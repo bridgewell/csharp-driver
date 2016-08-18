@@ -5,12 +5,12 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.IntegrationTests.TestClusterManagement;
-using Cassandra.Tests;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestClusterManagement;
+using BWCassandra.Tests;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [Category("short"), TestFixture]
     public class ClusterTests : TestGlobals

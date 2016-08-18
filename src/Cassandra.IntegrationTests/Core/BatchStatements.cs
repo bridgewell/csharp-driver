@@ -18,10 +18,10 @@
 using System.Linq;
 using System.Collections.Generic;
 ﻿using System.Threading;
-﻿using Cassandra.IntegrationTests.TestBase;
+﻿using BWCassandra.IntegrationTests.TestBase;
 ﻿using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [Category("short")]
     public class BatchStatements : SharedClusterTest

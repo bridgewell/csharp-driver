@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Cassandra.Mapping.Utils
+namespace BWCassandra.Mapping.Utils
 {
     /// <summary>
     /// Extension methods to IEnumerable&lt;T&gt;.

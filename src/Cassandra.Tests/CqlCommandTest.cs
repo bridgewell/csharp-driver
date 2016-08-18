@@ -16,10 +16,10 @@
 
 using System;
 using System.Data;
-using Cassandra.Data;
+using BWCassandra.Data;
 using NUnit.Framework;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class CqlCommandTest

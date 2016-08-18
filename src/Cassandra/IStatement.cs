@@ -17,7 +17,7 @@
 ﻿using System;
 ﻿using System.Collections.Generic;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  An executable query.

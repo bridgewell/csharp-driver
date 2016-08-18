@@ -5,11 +5,11 @@ using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using Cassandra.Serialization;
-using Cassandra.Tasks;
-using SortOrder = Cassandra.DataCollectionMetadata.SortOrder;
+using BWCassandra.Serialization;
+using BWCassandra.Tasks;
+using SortOrder = BWCassandra.DataCollectionMetadata.SortOrder;
 
-namespace Cassandra
+namespace BWCassandra
 {
     internal abstract class SchemaParser
     {

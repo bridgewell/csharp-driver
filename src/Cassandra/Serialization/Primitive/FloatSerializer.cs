@@ -14,7 +14,7 @@
 //   limitations under the License.
 //
 
-namespace Cassandra.Serialization.Primitive
+namespace BWCassandra.Serialization.Primitive
 {
     internal class FloatSerializer : TypeSerializer<float>
     {

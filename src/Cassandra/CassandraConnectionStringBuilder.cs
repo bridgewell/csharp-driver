@@ -17,7 +17,7 @@
 using System;
 using System.Data.Common;
 
-namespace Cassandra
+namespace BWCassandra
 {
     public class CassandraConnectionStringBuilder : DbConnectionStringBuilder
     {

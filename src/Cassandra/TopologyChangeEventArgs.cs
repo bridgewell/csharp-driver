@@ -16,7 +16,7 @@
 
 using System.Net;
 
-namespace Cassandra
+namespace BWCassandra
 {
     internal class TopologyChangeEventArgs : CassandraEventArgs
     {

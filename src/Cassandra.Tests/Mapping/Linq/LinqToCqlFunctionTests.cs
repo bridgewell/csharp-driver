@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cassandra.Data.Linq;
-using Cassandra.Mapping;
-using Cassandra.Tests.Mapping.Pocos;
+using BWCassandra.Data.Linq;
+using BWCassandra.Mapping;
+using BWCassandra.Tests.Mapping.Pocos;
 using NUnit.Framework;
 
-namespace Cassandra.Tests.Mapping.Linq
+namespace BWCassandra.Tests.Mapping.Linq
 {
     [TestFixture]
     public class LinqToCqlFunctionTests : MappingTestBase

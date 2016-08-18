@@ -18,7 +18,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Describes a Cassandra table

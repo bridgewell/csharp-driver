@@ -19,9 +19,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using Cassandra.Tasks;
+using BWCassandra.Tasks;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     public class CqlQuerySingleElement<TEntity> : CqlQueryBase<TEntity>
     {

@@ -16,10 +16,10 @@
 
 using System;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
-    /// DEPRECATED, use <see cref="Cassandra.Serialization.TypeSerializer{T}"/> instead.
+    /// DEPRECATED, use <see cref="BWCassandra.Serialization.TypeSerializer{T}"/> instead.
     /// Represents a adapter to convert a Cassandra type to a CLR type.
     /// </summary>
     public interface ITypeAdapter

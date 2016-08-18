@@ -4,9 +4,9 @@ using System.Configuration;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading;
-using Cassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestBase;
 
-namespace Cassandra.IntegrationTests.TestClusterManagement
+namespace BWCassandra.IntegrationTests.TestClusterManagement
 {
     /// <summary>
     /// Test Helper class for keeping track of multiple CCM (Cassandra Cluster Manager) instances

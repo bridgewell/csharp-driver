@@ -17,7 +17,7 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// A session holds connections to a Cassandra cluster, allowing it to be queried.

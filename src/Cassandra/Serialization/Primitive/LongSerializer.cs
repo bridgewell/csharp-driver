@@ -14,7 +14,7 @@
 //   limitations under the License.
 //
 
-namespace Cassandra.Serialization.Primitive
+namespace BWCassandra.Serialization.Primitive
 {
     /// <summary>
     /// A serializer for CQL type bigint, CLR type Int64.

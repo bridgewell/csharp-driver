@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Contains methods for converting a big-endian array of bytes to one of the base data types, 

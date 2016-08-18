@@ -16,10 +16,10 @@
 
 using System.Linq;
 using System.Linq.Expressions;
-using Cassandra.Mapping;
-using Cassandra.Mapping.Statements;
+using BWCassandra.Mapping;
+using BWCassandra.Mapping.Statements;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     public class CqlUpdate : CqlCommand
     {

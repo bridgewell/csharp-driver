@@ -20,11 +20,11 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
-using Cassandra.Collections;
-using Cassandra.Serialization;
-using Cassandra.Tasks;
+using BWCassandra.Collections;
+using BWCassandra.Serialization;
+using BWCassandra.Tasks;
 
-namespace Cassandra.Requests
+namespace BWCassandra.Requests
 {
     /// <summary>
     /// Handles request executions, each execution handles retry and failover.

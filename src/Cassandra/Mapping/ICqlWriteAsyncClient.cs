@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Cassandra.Mapping
+namespace BWCassandra.Mapping
 {
     /// <summary>
     /// The contract for Async write operations.

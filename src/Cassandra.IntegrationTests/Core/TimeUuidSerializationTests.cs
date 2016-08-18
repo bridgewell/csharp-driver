@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Cassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestBase;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [Category("short")]
     public class TimeUuidSerializationTests : SharedClusterTest
@@ -24,7 +24,7 @@ namespace Cassandra.IntegrationTests.Core
             {
                 Session.Execute(String.Format(TestUtils.CreateTableAllTypes, AllTypesTableName));
             }
-            catch (Cassandra.AlreadyExistsException) { }
+            catch (BWCassandra.AlreadyExistsException) { }
 
             var insertQuery = String.Format("INSERT INTO {0} (id, timeuuid_sample) VALUES (?, ?)", AllTypesTableName);
             var selectQuery = String.Format("SELECT id, timeuuid_sample, dateOf(timeuuid_sample) FROM {0} WHERE id = ?", AllTypesTableName);

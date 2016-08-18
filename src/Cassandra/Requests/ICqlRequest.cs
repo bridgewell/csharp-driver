@@ -17,7 +17,7 @@
 ﻿using System;
 ﻿using System.Collections.Generic;
 
-namespace Cassandra.Requests
+namespace BWCassandra.Requests
 {
     /// <summary>
     /// Represents an CQL Request (BATCH, EXECUTE or QUERY)

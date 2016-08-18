@@ -17,7 +17,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net;
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  Informations and known state of a Cassandra cluster. <p> This is the main

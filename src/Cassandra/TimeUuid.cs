@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Represents a v1 uuid 

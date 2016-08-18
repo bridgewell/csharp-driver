@@ -20,11 +20,11 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.IntegrationTests.TestClusterManagement;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestClusterManagement;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     /// <summary>
     /// Test Cassandra Authentication.

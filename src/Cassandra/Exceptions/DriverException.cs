@@ -17,7 +17,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Top level class for exceptions thrown by the driver.

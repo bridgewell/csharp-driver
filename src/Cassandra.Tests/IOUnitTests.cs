@@ -24,13 +24,13 @@ using System.Linq;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Cassandra.Compression;
-using Cassandra.Responses;
-using Cassandra.Serialization;
-using Cassandra.Tasks;
+using BWCassandra.Compression;
+using BWCassandra.Responses;
+using BWCassandra.Serialization;
+using BWCassandra.Tasks;
 using Microsoft.IO;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class IOUnitTests

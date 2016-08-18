@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using Cassandra.Mapping;
+using BWCassandra.Mapping;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     [Obsolete]
     internal class LinqAttributeBasedColumnDefinition : IColumnDefinition

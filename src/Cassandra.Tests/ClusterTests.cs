@@ -21,7 +21,7 @@ using System.Net;
 using System.Text;
 using NUnit.Framework;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class ClusterUnitTests

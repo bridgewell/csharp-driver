@@ -19,7 +19,7 @@ using System.Data.Common;
 using System.Security;
 using System.Security.Permissions;
 
-namespace Cassandra.Data
+namespace BWCassandra.Data
 {
     /// <summary>
     /// Represents a set of methods for creating instances of a CQL ADO.NET implementation

@@ -16,7 +16,7 @@
 
 using System.Net;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///     Translates IP addresses received from Cassandra nodes into locally queriable addresses.

@@ -3,9 +3,9 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Cassandra.Tasks;
+using BWCassandra.Tasks;
 
-namespace Cassandra.Mapping.Statements
+namespace BWCassandra.Mapping.Statements
 {
     /// <summary>
     /// Creates statements from CQL that can be executed with the C* driver.

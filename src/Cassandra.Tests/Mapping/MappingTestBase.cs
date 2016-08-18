@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Cassandra.Data.Linq;
-using Cassandra.Mapping;
-using Cassandra.Serialization;
-using Cassandra.Tasks;
-using Cassandra.Tests.Mapping.FluentMappings;
+using BWCassandra.Data.Linq;
+using BWCassandra.Mapping;
+using BWCassandra.Serialization;
+using BWCassandra.Tasks;
+using BWCassandra.Tests.Mapping.FluentMappings;
 using Moq;
 using NUnit.Framework;
 
-namespace Cassandra.Tests.Mapping
+namespace BWCassandra.Tests.Mapping
 {
     public abstract class MappingTestBase
     {

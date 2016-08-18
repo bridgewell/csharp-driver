@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
 using System.Threading;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.Tasks;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.Tasks;
 using NUnit.Framework;
-using SortOrder = Cassandra.DataCollectionMetadata.SortOrder;
+using SortOrder = BWCassandra.DataCollectionMetadata.SortOrder;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [TestFixture, Category("short")]
     public class SchemaMetadataTests : SharedClusterTest

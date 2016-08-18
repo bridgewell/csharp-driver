@@ -19,7 +19,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Threading;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  A Cassandra node. This class keeps the informations the driver maintain on a

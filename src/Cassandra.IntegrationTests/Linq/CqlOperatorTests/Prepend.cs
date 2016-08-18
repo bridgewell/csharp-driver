@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
-using Cassandra.Data.Linq;
-using Cassandra.IntegrationTests.Linq.Structures;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.Mapping;
+using BWCassandra.Data.Linq;
+using BWCassandra.IntegrationTests.Linq.Structures;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.Mapping;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Linq.CqlOperatorTests
+namespace BWCassandra.IntegrationTests.Linq.CqlOperatorTests
 {
     [Category("short")]
     public class Prepend : SharedClusterTest

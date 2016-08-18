@@ -18,7 +18,7 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 
-namespace Cassandra
+namespace BWCassandra
 {
     public class ExecutionException : DriverException
     {

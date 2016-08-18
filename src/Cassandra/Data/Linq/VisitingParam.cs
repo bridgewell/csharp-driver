@@ -18,7 +18,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     /// <summary>
     /// Represents nested states

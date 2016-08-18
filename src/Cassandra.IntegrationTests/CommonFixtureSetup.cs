@@ -1,11 +1,11 @@
 ﻿using System.Diagnostics;
 using System.Globalization;
 using System.Threading;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.IntegrationTests.TestClusterManagement;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestClusterManagement;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests
+namespace BWCassandra.IntegrationTests
 {
     [SetUpFixture]
     public class CommonFixtureSetup : TestGlobals

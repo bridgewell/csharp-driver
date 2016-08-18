@@ -17,7 +17,7 @@
 using System;
 using System.Linq;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     public interface ITable : IQueryProvider
     {

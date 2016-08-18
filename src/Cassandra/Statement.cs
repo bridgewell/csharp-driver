@@ -17,9 +17,9 @@
 using System;
 using System.Collections.Generic;
 using System.Threading;
-using Cassandra.Requests;
+using BWCassandra.Requests;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Base class for statements that contains the options.

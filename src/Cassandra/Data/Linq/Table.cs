@@ -19,11 +19,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using Cassandra.Mapping;
-using Cassandra.Mapping.Statements;
-using Cassandra.Mapping.TypeConversion;
+using BWCassandra.Mapping;
+using BWCassandra.Mapping.Statements;
+using BWCassandra.Mapping.TypeConversion;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     /// <summary>
     /// A Linq IQueryProvider that represents a table in Cassandra

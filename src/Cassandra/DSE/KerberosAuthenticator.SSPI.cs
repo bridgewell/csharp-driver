@@ -19,7 +19,7 @@ using System;
 using SSPI;
 using System.Security.Principal;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  Responsible for authenticating with secured DSE services using Kerberos over

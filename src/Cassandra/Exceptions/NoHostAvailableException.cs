@@ -19,7 +19,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Runtime.Serialization;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  Exception thrown when a query cannot be performed because no host are

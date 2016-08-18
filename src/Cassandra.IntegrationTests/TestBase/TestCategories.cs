@@ -14,7 +14,7 @@
 //   limitations under the License.
 //
 
-namespace Cassandra.IntegrationTests.TestBase
+namespace BWCassandra.IntegrationTests.TestBase
 {
     public class TestCategories
     {

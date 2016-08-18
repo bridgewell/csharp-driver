@@ -16,9 +16,9 @@
 
 using System;
 using System.Collections.Generic;
-using Cassandra.Responses;
+using BWCassandra.Responses;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Parses the frame into a response

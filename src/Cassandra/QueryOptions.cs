@@ -15,7 +15,7 @@
 
 using System;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Options related to defaults for individual queries.

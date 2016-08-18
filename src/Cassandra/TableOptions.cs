@@ -18,7 +18,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 
-namespace Cassandra
+namespace BWCassandra
 {
     public class TableOptions
     {

@@ -16,7 +16,7 @@
 using System;
 
 // ReSharper disable once CheckNamespace : All policies are on the root namespace
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// A retry policy that avoids retrying non-idempotent statements.

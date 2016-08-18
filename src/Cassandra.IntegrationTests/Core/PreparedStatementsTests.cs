@@ -20,15 +20,15 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Numerics;
 using System.Threading.Tasks;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.IntegrationTests.TestClusterManagement;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestClusterManagement;
 using NUnit.Framework;
 using System.Net;
 using System.Collections;
 using System.Threading;
-using Cassandra.Tests;
+using BWCassandra.Tests;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [Category("short")]
     public class PreparedStatementsTests : SharedClusterTest

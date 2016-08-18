@@ -15,10 +15,10 @@
 //
 
 using System;
-using Cassandra.Data.Linq;
+using BWCassandra.Data.Linq;
 #pragma warning disable 618
 
-namespace Cassandra.IntegrationTests.Linq
+namespace BWCassandra.IntegrationTests.Linq
 {
     [AllowFiltering]
     [Table("sales")]

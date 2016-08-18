@@ -15,10 +15,10 @@
 //
 
 using System;
-using Cassandra.Serialization;
-using HeaderFlag = Cassandra.FrameHeader.HeaderFlag;
+using BWCassandra.Serialization;
+using HeaderFlag = BWCassandra.FrameHeader.HeaderFlag;
 
-namespace Cassandra.Responses
+namespace BWCassandra.Responses
 {
     internal class Response
     {

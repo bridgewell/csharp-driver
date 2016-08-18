@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// A time without a time-zone in the ISO-8601 calendar system, such as 10:30:05.

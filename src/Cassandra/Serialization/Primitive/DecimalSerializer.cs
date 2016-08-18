@@ -16,7 +16,7 @@
 using System;
 using System.Numerics;
 
-namespace Cassandra.Serialization.Primitive
+namespace BWCassandra.Serialization.Primitive
 {
     public class DecimalSerializer : TypeSerializer<decimal>
     {

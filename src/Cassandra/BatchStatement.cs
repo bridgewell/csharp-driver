@@ -17,10 +17,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Cassandra.Requests;
-using Cassandra.Serialization;
+using BWCassandra.Requests;
+using BWCassandra.Serialization;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// A statement that groups a number of <see cref="BoundStatement" /> and / or <see cref="SimpleStatement" /> so they get executed as a batch.

@@ -14,7 +14,7 @@
 //   limitations under the License.
 //
 
-namespace Cassandra
+namespace BWCassandra
 {
     internal delegate void CassandraEventHandler(object sender, CassandraEventArgs e);
 }

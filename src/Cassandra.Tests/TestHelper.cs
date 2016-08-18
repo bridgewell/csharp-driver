@@ -9,10 +9,10 @@ using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Cassandra.Serialization;
-using IgnoreAttribute = Cassandra.Mapping.Attributes.IgnoreAttribute;
+using BWCassandra.Serialization;
+using IgnoreAttribute = BWCassandra.Mapping.Attributes.IgnoreAttribute;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     internal static class TestHelper
     {

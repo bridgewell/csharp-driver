@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Cassandra.Data.Linq;
-using Cassandra.IntegrationTests.Linq.Structures;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.Mapping;
+using BWCassandra.Data.Linq;
+using BWCassandra.IntegrationTests.Linq.Structures;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.Mapping;
 using NUnit.Framework;
 using NUnit.Framework.Constraints;
 
-namespace Cassandra.IntegrationTests.Mapping.Tests
+namespace BWCassandra.IntegrationTests.Mapping.Tests
 {
     [Category("short")]
     public class Single : SharedClusterTest

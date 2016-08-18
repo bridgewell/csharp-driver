@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cassandra.Serialization;
-using Cassandra.Tests.Mapping.Pocos;
+using BWCassandra.Serialization;
+using BWCassandra.Tests.Mapping.Pocos;
 
-namespace Cassandra.Tests.Mapping.TestData
+namespace BWCassandra.Tests.Mapping.TestData
 {
     internal static class TestDataHelper
     {

@@ -16,12 +16,12 @@
 
 using System;
 using System.Collections.Generic;
-using Cassandra.Data.Linq;
-using Cassandra.IntegrationTests.Linq.LinqMethods;
+using BWCassandra.Data.Linq;
+using BWCassandra.IntegrationTests.Linq.LinqMethods;
 using NUnit.Framework;
 #pragma warning disable 618
 
-namespace Cassandra.IntegrationTests.Mapping.Structures
+namespace BWCassandra.IntegrationTests.Mapping.Structures
 {
     /// <summary>
     /// Lower case meta tags used so class can be used easily by Linq and CqlPoco

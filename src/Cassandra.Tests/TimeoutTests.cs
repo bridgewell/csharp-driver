@@ -4,12 +4,12 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using Cassandra.Tasks;
+using BWCassandra.Tasks;
 using NUnit.Framework;
-using Bucket = Cassandra.Tasks.HashedWheelTimer.Bucket;
-using TimeoutItem = Cassandra.Tasks.HashedWheelTimer.TimeoutItem;
+using Bucket = BWCassandra.Tasks.HashedWheelTimer.Bucket;
+using TimeoutItem = BWCassandra.Tasks.HashedWheelTimer.TimeoutItem;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class TimeoutTests

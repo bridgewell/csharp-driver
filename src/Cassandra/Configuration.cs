@@ -16,11 +16,11 @@
 
 using System;
 using System.Collections.Generic;
-using Cassandra.Serialization;
-using Cassandra.Tasks;
+using BWCassandra.Serialization;
+using BWCassandra.Tasks;
 using Microsoft.IO;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  The configuration of the cluster. This handle setting: <ul> <li>Cassandra

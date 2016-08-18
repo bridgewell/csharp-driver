@@ -17,9 +17,9 @@
 ﻿using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-﻿using Cassandra.Serialization;
+﻿using BWCassandra.Serialization;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Allows configuration of user defined types.

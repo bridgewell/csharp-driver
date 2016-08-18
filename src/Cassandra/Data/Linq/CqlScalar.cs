@@ -19,11 +19,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using Cassandra.Mapping;
-using Cassandra.Mapping.Statements;
-using Cassandra.Tasks;
+using BWCassandra.Mapping;
+using BWCassandra.Mapping.Statements;
+using BWCassandra.Tasks;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     /// <summary>
     /// Represents an IQueryable that returns the first column of the first rows

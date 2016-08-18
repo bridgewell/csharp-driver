@@ -17,7 +17,7 @@
 using System.Collections.Generic;
 using System.Net;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  Initializer for <link>Cluster</link> instances. <p> If you want to create a

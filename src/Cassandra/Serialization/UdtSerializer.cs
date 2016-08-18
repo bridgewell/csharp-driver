@@ -18,7 +18,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 
-namespace Cassandra.Serialization
+namespace BWCassandra.Serialization
 {
     /// <summary>
     /// Represents a <see cref="TypeSerializer{T}"/> instance that handles UDT serialization and deserialization.

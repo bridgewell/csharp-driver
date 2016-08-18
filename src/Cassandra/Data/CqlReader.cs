@@ -20,7 +20,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Common;
 
-namespace Cassandra.Data
+namespace BWCassandra.Data
 {
     /// <summary>
     /// Reads a forward-only stream of rows from Cassandra.

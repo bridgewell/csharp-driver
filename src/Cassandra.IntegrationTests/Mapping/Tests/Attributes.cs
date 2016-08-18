@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cassandra.Data.Linq;
-using Cassandra.IntegrationTests.Linq.Structures;
-using Cassandra.IntegrationTests.Mapping.Structures;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.Mapping;
-using Cassandra.Mapping.Attributes;
-using Cassandra.Tests.Mapping.FluentMappings;
-using Cassandra.Tests.Mapping.Pocos;
+using BWCassandra.Data.Linq;
+using BWCassandra.IntegrationTests.Linq.Structures;
+using BWCassandra.IntegrationTests.Mapping.Structures;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.Mapping;
+using BWCassandra.Mapping.Attributes;
+using BWCassandra.Tests.Mapping.FluentMappings;
+using BWCassandra.Tests.Mapping.Pocos;
 using NUnit.Framework;
 #pragma warning disable 618
 #pragma warning disable 612
 
-namespace Cassandra.IntegrationTests.Mapping.Tests
+namespace BWCassandra.IntegrationTests.Mapping.Tests
 {
     [Category("short")]
     public class Attributes : SharedClusterTest
@@ -526,30 +526,30 @@ namespace Cassandra.IntegrationTests.Mapping.Tests
         /// Private test classes
         /////////////////////////////////////////
 
-        [Cassandra.Mapping.Attributes.Table("SimplePocoWithColumnLabel_CustomColumnName")]
+        [BWCassandra.Mapping.Attributes.Table("SimplePocoWithColumnLabel_CustomColumnName")]
         public class SimplePocoWithColumnLabel_CustomColumnName
         {
-            [Cassandra.Mapping.Attributes.Column("someCaseSensitivePartitionKey")]
-            [Cassandra.Mapping.Attributes.PartitionKey]
+            [BWCassandra.Mapping.Attributes.Column("someCaseSensitivePartitionKey")]
+            [BWCassandra.Mapping.Attributes.PartitionKey]
             public string SomePartitionKey = "defaultPartitionKeyVal";
-            [Cassandra.Mapping.Attributes.Column("some_column_label_thats_different")]
+            [BWCassandra.Mapping.Attributes.Column("some_column_label_thats_different")]
             public int SomeColumn = 191991919;
         }
 
         public class SimplePocoWithColumnAttribute
         {
-            [Cassandra.Mapping.Attributes.PartitionKey]
+            [BWCassandra.Mapping.Attributes.PartitionKey]
             public string SomePartitionKey = "defaultPartitionKeyVal";
-            [Cassandra.Mapping.Attributes.Column]
+            [BWCassandra.Mapping.Attributes.Column]
             public int SomeColumn = 121212121;
         }
 
 
         public class SimplePocoWithSecondaryIndex
         {
-            [Cassandra.Mapping.Attributes.PartitionKey]
+            [BWCassandra.Mapping.Attributes.PartitionKey]
             public string SomePartitionKey;
-            [Cassandra.Mapping.Attributes.SecondaryIndex]
+            [BWCassandra.Mapping.Attributes.SecondaryIndex]
             public int SomeSecondaryIndex = 1;
 
             public SimplePocoWithSecondaryIndex() { }
@@ -563,54 +563,54 @@ namespace Cassandra.IntegrationTests.Mapping.Tests
         private class SimplePocoWithPartitionKey
         {
             public string StringTyp = "someStringValue";
-            [Cassandra.Mapping.Attributes.PartitionKey]
+            [BWCassandra.Mapping.Attributes.PartitionKey]
             public string StringType = "someStringValue";
             public string StringTypeNotPartitionKey = "someStringValueNotPk";
         }
 
         private class PocoWithIgnoredAttributes
         {
-            [Cassandra.Mapping.Attributes.PartitionKey]
+            [BWCassandra.Mapping.Attributes.PartitionKey]
             public string SomePartitionKey = "somePartitionKeyDefaultValue";
             public double SomeNonIgnoredDouble = 123456;
-            [Cassandra.Mapping.Attributes.Ignore]
+            [BWCassandra.Mapping.Attributes.Ignore]
             public string IgnoredStringAttribute = "someIgnoredString";
         }
 
         /// <summary>
         /// Test poco class that uses both Linq and Cassandra.Mapping attributes at the same time
         /// </summary>
-        [Cassandra.Data.Linq.Table("pocowithignrdattr_linqandmapping")]
+        [BWCassandra.Data.Linq.Table("pocowithignrdattr_linqandmapping")]
         private class PocoWithIgnrdAttr_LinqAndMapping
         {
-            [Cassandra.Data.Linq.PartitionKey]
-            [Cassandra.Mapping.Attributes.PartitionKey]
-            [Cassandra.Data.Linq.Column("somepartitionkey")]
+            [BWCassandra.Data.Linq.PartitionKey]
+            [BWCassandra.Mapping.Attributes.PartitionKey]
+            [BWCassandra.Data.Linq.Column("somepartitionkey")]
             public string SomePartitionKey = "somePartitionKeyDefaultValue";
 
-            [Cassandra.Data.Linq.Column("somenonignoreddouble")]
+            [BWCassandra.Data.Linq.Column("somenonignoreddouble")]
             public double SomeNonIgnoredDouble = 123456;
 
-            [Cassandra.Mapping.Attributes.Ignore]
-            [Cassandra.Data.Linq.Column(Attributes.IgnoredStringAttribute)]
+            [BWCassandra.Mapping.Attributes.Ignore]
+            [BWCassandra.Data.Linq.Column(Attributes.IgnoredStringAttribute)]
             public string IgnoredStringAttribute = "someIgnoredString";
         }
 
         /// <summary>
         /// See PocoWithIgnoredAttributes for correctly implemented counterpart
         /// </summary>
-        [Cassandra.Data.Linq.Table("pocowithwrongfieldlabeledpk")]
+        [BWCassandra.Data.Linq.Table("pocowithwrongfieldlabeledpk")]
         private class PocoWithWrongFieldLabeledPk
         {
-            [Cassandra.Data.Linq.PartitionKey]
-            [Cassandra.Data.Linq.Column("somepartitionkey")]
+            [BWCassandra.Data.Linq.PartitionKey]
+            [BWCassandra.Data.Linq.Column("somepartitionkey")]
             public string SomePartitionKey = "somePartitionKeyDefaultValue";
 
-            [Cassandra.Data.Linq.Column("somenonignoreddouble")]
+            [BWCassandra.Data.Linq.Column("somenonignoreddouble")]
             public double SomeNonIgnoredDouble = 123456;
 
-            [Cassandra.Mapping.Attributes.PartitionKey]
-            [Cassandra.Data.Linq.Column("someotherstring")]
+            [BWCassandra.Mapping.Attributes.PartitionKey]
+            [BWCassandra.Data.Linq.Column("someotherstring")]
             public string SomeOtherString = "someOtherString";
         }
 
@@ -636,7 +636,7 @@ namespace Cassandra.IntegrationTests.Mapping.Tests
         /// </summary>
         private class PocoMislabeledClusteringKey
         {
-            [Cassandra.Mapping.Attributes.ClusteringKey]
+            [BWCassandra.Mapping.Attributes.ClusteringKey]
             public string SomeString = "someStringValue";
         }
 
@@ -654,7 +654,7 @@ namespace Cassandra.IntegrationTests.Mapping.Tests
         /// </summary>
         private class PocoWithPartitionKeyIncluded
         {
-            [Cassandra.Mapping.Attributes.PartitionKey]
+            [BWCassandra.Mapping.Attributes.PartitionKey]
             public string SomeString = "somePartitionKeyDefaultValue";
             public double SomeDouble = (double)123456;
             public List<string> SomeList = new List<string>();
@@ -673,48 +673,48 @@ namespace Cassandra.IntegrationTests.Mapping.Tests
             }
         }
 
-        [Cassandra.Data.Linq.Table("pocowithcompositekey")]
+        [BWCassandra.Data.Linq.Table("pocowithcompositekey")]
         private class PocoWithCompositeKey
         {
-            [Cassandra.Data.Linq.PartitionKey(1)]
-            [Cassandra.Mapping.Attributes.PartitionKey(1)]
-            [Cassandra.Data.Linq.Column("somepartitionkey1")]
+            [BWCassandra.Data.Linq.PartitionKey(1)]
+            [BWCassandra.Mapping.Attributes.PartitionKey(1)]
+            [BWCassandra.Data.Linq.Column("somepartitionkey1")]
             public string SomePartitionKey1 = "somepartitionkey1_val";
 
-            [Cassandra.Data.Linq.PartitionKey(2)]
-            [Cassandra.Mapping.Attributes.PartitionKey(2)]
-            [Cassandra.Data.Linq.Column("somepartitionkey2")]
+            [BWCassandra.Data.Linq.PartitionKey(2)]
+            [BWCassandra.Mapping.Attributes.PartitionKey(2)]
+            [BWCassandra.Data.Linq.Column("somepartitionkey2")]
             public string SomePartitionKey2 = "somepartitionkey2_val";
 
-            [Cassandra.Data.Linq.Column("listofguids")]
+            [BWCassandra.Data.Linq.Column("listofguids")]
             public List<Guid> ListOfGuids;
 
-            [Cassandra.Mapping.Attributes.Ignore]
-            [Cassandra.Data.Linq.Column("ignoredstring")]
+            [BWCassandra.Mapping.Attributes.Ignore]
+            [BWCassandra.Data.Linq.Column("ignoredstring")]
             public string IgnoredString = "someIgnoredString_val";
         }
 
-        [Cassandra.Data.Linq.Table("pocowithclusteringkeys")]
+        [BWCassandra.Data.Linq.Table("pocowithclusteringkeys")]
         private class PocoWithClusteringKeys
         {
-            [Cassandra.Data.Linq.PartitionKey(1)]
-            [Cassandra.Mapping.Attributes.PartitionKey(1)]
-            [Cassandra.Data.Linq.Column("somepartitionkey1")]
+            [BWCassandra.Data.Linq.PartitionKey(1)]
+            [BWCassandra.Mapping.Attributes.PartitionKey(1)]
+            [BWCassandra.Data.Linq.Column("somepartitionkey1")]
             public string SomePartitionKey1 = "somepartitionkey1_val";
 
-            [Cassandra.Data.Linq.PartitionKey(2)]
-            [Cassandra.Mapping.Attributes.PartitionKey(2)]
-            [Cassandra.Data.Linq.Column("somepartitionkey2")]
+            [BWCassandra.Data.Linq.PartitionKey(2)]
+            [BWCassandra.Mapping.Attributes.PartitionKey(2)]
+            [BWCassandra.Data.Linq.Column("somepartitionkey2")]
             public string SomePartitionKey2 = "somepartitionkey2_val";
 
-            [Cassandra.Data.Linq.ClusteringKey(1)]
-            [Cassandra.Mapping.Attributes.ClusteringKey(1)]
-            [Cassandra.Data.Linq.Column("guid1")]
+            [BWCassandra.Data.Linq.ClusteringKey(1)]
+            [BWCassandra.Mapping.Attributes.ClusteringKey(1)]
+            [BWCassandra.Data.Linq.Column("guid1")]
             public Guid Guid1;
 
-            [Cassandra.Data.Linq.ClusteringKey(2)]
-            [Cassandra.Mapping.Attributes.ClusteringKey(2)]
-            [Cassandra.Data.Linq.Column("guid2")]
+            [BWCassandra.Data.Linq.ClusteringKey(2)]
+            [BWCassandra.Mapping.Attributes.ClusteringKey(2)]
+            [BWCassandra.Data.Linq.Column("guid2")]
             public Guid Guid2;
 
 

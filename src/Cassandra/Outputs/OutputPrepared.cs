@@ -15,7 +15,7 @@
 //
 
 // ReSharper disable once CheckNamespace
-namespace Cassandra
+namespace BWCassandra
 {
     internal class OutputPrepared : IOutput
     {

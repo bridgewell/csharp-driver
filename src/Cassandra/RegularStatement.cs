@@ -16,9 +16,9 @@
 
 using System;
 using System.Collections.Generic;
-using Cassandra.Serialization;
+using BWCassandra.Serialization;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  A non-prepared CQL statement.

@@ -20,7 +20,7 @@ using System.IO.Compression;
 using System.Linq;
 using System.Text;
 
-namespace Cassandra.Compression
+namespace BWCassandra.Compression
 {
     internal class LZ4Compressor : IFrameCompressor
     {

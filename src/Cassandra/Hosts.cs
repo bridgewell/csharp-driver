@@ -20,9 +20,9 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Net;
 using System.Linq;
-using Cassandra.Collections;
+using BWCassandra.Collections;
 
-namespace Cassandra
+namespace BWCassandra
 {
     internal class Hosts : IEnumerable<Host>
     {

@@ -19,11 +19,11 @@ using System.Collections.Generic;
 ﻿using System.Text;
 using System.Data;
 using System.Data.Common;
-﻿using Cassandra;
+﻿using BWCassandra;
 ﻿using System.Text.RegularExpressions;
 using System.Threading;
 
-namespace Cassandra.Data
+namespace BWCassandra.Data
 {
     /// <summary>
     /// Represents an CQL statement to execute against Cassandra

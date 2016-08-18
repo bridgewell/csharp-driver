@@ -17,7 +17,7 @@
 using System;
 using System.Net;
 
-namespace Cassandra
+namespace BWCassandra
 {
     public class HostsEventArgs : EventArgs
     {

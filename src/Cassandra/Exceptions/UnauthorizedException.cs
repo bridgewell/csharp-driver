@@ -14,7 +14,7 @@
 //   limitations under the License.
 //
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  Indicates that a query cannot be performed due to the authorisation restrictions of the logged user.

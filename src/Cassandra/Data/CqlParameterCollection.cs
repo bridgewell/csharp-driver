@@ -18,7 +18,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data.Common;
 
-namespace Cassandra.Data
+namespace BWCassandra.Data
 {
     /// <summary>
     /// Represents a collection of <see cref="CqlParameter"/>s.

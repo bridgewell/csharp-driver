@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cassandra.Mapping;
-using Cassandra.Mapping.TypeConversion;
+using BWCassandra.Mapping;
+using BWCassandra.Mapping.TypeConversion;
 using NUnit.Framework;
 
-namespace Cassandra.Tests.Mapping
+namespace BWCassandra.Tests.Mapping
 {
     [TestFixture]
     public class MappingConfigurationTests

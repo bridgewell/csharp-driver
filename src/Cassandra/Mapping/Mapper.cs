@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Cassandra.Mapping.Statements;
-using Cassandra.Tasks;
+using BWCassandra.Mapping.Statements;
+using BWCassandra.Tasks;
 
-namespace Cassandra.Mapping
+namespace BWCassandra.Mapping
 {
     /// <summary>
     /// The default CQL client implementation which uses the DataStax driver <see cref="ISession"/> provided in the constructor

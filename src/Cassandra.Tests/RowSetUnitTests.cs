@@ -24,7 +24,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Moq;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class RowSetUnitTests

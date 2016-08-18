@@ -14,7 +14,7 @@
 //   limitations under the License.
 //
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Consistency refers to how up-to-date and synchronized a row of Cassandra data is on all of its replicas.

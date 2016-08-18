@@ -17,7 +17,7 @@
 using System;
 using System.Numerics;
 
-namespace Cassandra.Serialization.Primitive
+namespace BWCassandra.Serialization.Primitive
 {
     /// <summary>
     /// A serializer for CQL type varint, CLR type BigInteger.

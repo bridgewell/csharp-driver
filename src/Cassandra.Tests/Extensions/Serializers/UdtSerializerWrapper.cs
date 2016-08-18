@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cassandra.Serialization;
+using BWCassandra.Serialization;
 
-namespace Cassandra.Tests.Extensions.Serializers
+namespace BWCassandra.Tests.Extensions.Serializers
 {
     public class UdtSerializerWrapper : UdtSerializer
     {

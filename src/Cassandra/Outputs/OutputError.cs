@@ -17,7 +17,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Cassandra
+namespace BWCassandra
 {
     internal abstract class OutputError : IOutput
     {

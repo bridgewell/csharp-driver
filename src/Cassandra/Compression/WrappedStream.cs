@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Cassandra.Compression
+namespace BWCassandra.Compression
 {
     /// <summary>
     /// A simple wrapper to a stream that allows to limit the length of the provided stream.

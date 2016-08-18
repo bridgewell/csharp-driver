@@ -14,13 +14,13 @@
 //   limitations under the License.
 //
 
-using ﻿Cassandra.IntegrationTests.TestBase;
+using ﻿BWCassandra.IntegrationTests.TestBase;
 using NUnit.Framework;
 using System;
 using System.Diagnostics;
 using System.Linq.Expressions;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [TestFixture, Category("short")]
     public class ConnectionTimeoutTest : TestGlobals

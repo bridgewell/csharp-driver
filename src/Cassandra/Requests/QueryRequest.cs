@@ -17,9 +17,9 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Cassandra.Serialization;
+using BWCassandra.Serialization;
 
-namespace Cassandra.Requests
+namespace BWCassandra.Requests
 {
     /// <summary>
     /// Represents a protocol QUERY request

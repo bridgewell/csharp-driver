@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cassandra.Mapping.Attributes
+namespace BWCassandra.Mapping.Attributes
 {
     /// <summary>
     /// Tells the mapper to ignore mapping this property.

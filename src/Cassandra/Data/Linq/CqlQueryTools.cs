@@ -23,7 +23,7 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     internal static class CqlQueryTools
     {

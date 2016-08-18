@@ -19,7 +19,7 @@ using System.Reflection;
 ﻿using System.Threading;
 ﻿using System.Threading.Tasks;
 
-namespace Cassandra.Tasks
+namespace BWCassandra.Tasks
 {
     internal static class TaskHelper
     {

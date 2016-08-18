@@ -16,7 +16,7 @@
 
 using System.Text;
 
-namespace Cassandra
+namespace BWCassandra
 {
     internal class OPPToken : IToken
     {

@@ -18,7 +18,7 @@ using System;
 using System.Diagnostics;
 using System.Text;
 
-namespace Cassandra
+namespace BWCassandra
 {
     public class Logger
     {

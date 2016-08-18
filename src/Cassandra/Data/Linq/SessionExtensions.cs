@@ -15,14 +15,14 @@
 //
 
 using System;
-using Cassandra.Mapping;
+using BWCassandra.Mapping;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     public static class SessionExtensions
     {
         /// <summary>
-        /// <para>Extension method used for backward-compatibility, use <see cref="Cassandra.Data.Linq.Table{T}(Cassandra.ISession)"/> constructor instead.</para>
+        /// <para>Extension method used for backward-compatibility, use <see cref="BWCassandra.Data.Linq.Table{T}(BWCassandra.ISession)"/> constructor instead.</para>
         /// <para>Creates a new instance of the Linq IQueryProvider that represents a table in Cassandra using the mapping configuration provided.</para>
         /// <para>Fluent configuration or attributes can be used to define mapping information.</para>
         /// </summary>

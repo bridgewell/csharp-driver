@@ -17,7 +17,7 @@
 using System;
 using System.Threading;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  Additional options of the .net Cassandra driver.

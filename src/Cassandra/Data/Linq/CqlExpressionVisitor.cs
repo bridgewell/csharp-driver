@@ -22,10 +22,10 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
-using Cassandra.Mapping;
-using Cassandra.Mapping.Utils;
+using BWCassandra.Mapping;
+using BWCassandra.Mapping.Utils;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     internal class CqlExpressionVisitor : ExpressionVisitor
     {

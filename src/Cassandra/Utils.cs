@@ -23,7 +23,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace Cassandra
+namespace BWCassandra
 {
     internal static class Utils
     {

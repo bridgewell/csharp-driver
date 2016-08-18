@@ -5,12 +5,12 @@ using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Cassandra.Serialization;
-using Cassandra.Tasks;
+using BWCassandra.Serialization;
+using BWCassandra.Tasks;
 using Moq;
 using NUnit.Framework;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class HostConnectionPoolTests

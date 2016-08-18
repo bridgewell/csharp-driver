@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cassandra.Mapping;
-using Cassandra.Mapping.Attributes;
-using Cassandra.Tests.Mapping.Pocos;
+using BWCassandra.Mapping;
+using BWCassandra.Mapping.Attributes;
+using BWCassandra.Tests.Mapping.Pocos;
 using NUnit.Framework;
 
-namespace Cassandra.Tests.Mapping
+namespace BWCassandra.Tests.Mapping
 {
     [TestFixture]
     public class AttributeBasedTypeDefinitionTests

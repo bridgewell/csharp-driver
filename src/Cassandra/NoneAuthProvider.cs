@@ -16,7 +16,7 @@
 
 using System.Net;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  A provider that provides no authentication capability. <p> This is only

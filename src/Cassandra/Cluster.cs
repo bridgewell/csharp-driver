@@ -19,11 +19,11 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading;
-using Cassandra.Serialization;
-using Cassandra.Tasks;
+using BWCassandra.Serialization;
+using BWCassandra.Tasks;
 using Microsoft.IO;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Implementation of <see cref="ICluster"/>

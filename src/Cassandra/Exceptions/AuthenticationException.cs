@@ -16,7 +16,7 @@
 
 using System.Net;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  Indicates an error during the authentication phase while connecting to a node.

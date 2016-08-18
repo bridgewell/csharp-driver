@@ -15,11 +15,11 @@
 //
 
 using System;
-using Cassandra.Requests;
-using Cassandra.Serialization;
+using BWCassandra.Requests;
+using BWCassandra.Serialization;
 using NUnit.Framework;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class RequestHandlerTests

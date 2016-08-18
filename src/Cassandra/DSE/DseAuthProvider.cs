@@ -16,7 +16,7 @@
 using System.Net;
 using System.Collections.Generic;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  AuthProvider which supplies authenticator instances for clients to connect to

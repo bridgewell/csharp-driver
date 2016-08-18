@@ -19,9 +19,9 @@ using System.Collections.Generic;
 using System.Net;
 using System.Numerics;
 using System.Text;
-using Cassandra.Serialization.Primitive;
+using BWCassandra.Serialization.Primitive;
 
-namespace Cassandra.Serialization
+namespace BWCassandra.Serialization
 {
     /// <summary>
     /// A serializer that can encode and decode to and from a given CQL type and a given CLR Type.

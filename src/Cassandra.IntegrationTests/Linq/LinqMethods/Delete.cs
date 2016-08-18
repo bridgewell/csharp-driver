@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Cassandra.Data.Linq;
-using Cassandra.IntegrationTests.Linq.Structures;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.Mapping;
+using BWCassandra.Data.Linq;
+using BWCassandra.IntegrationTests.Linq.Structures;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.Mapping;
 using NUnit.Framework;
 using Renci.SshNet.Messages.Authentication;
 
-namespace Cassandra.IntegrationTests.Linq.LinqMethods
+namespace BWCassandra.IntegrationTests.Linq.LinqMethods
 {
     [Category("short")]
     public class Delete : SharedClusterTest

@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace Cassandra.Mapping.Attributes
+namespace BWCassandra.Mapping.Attributes
 {
     /// <summary>
     /// A column definition that uses attributes on the field/property to get its settings.

@@ -16,7 +16,7 @@
 
 using System.Diagnostics;
 
-namespace Cassandra
+namespace BWCassandra
 {
     public static class Diagnostics
     {

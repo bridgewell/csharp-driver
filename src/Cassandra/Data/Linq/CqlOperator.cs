@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     public sealed class CqlOperator
     {

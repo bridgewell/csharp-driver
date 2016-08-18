@@ -21,12 +21,12 @@ using System.Net;
 using System.Threading;
 using System.Net.Sockets;
 using System.Threading.Tasks;
-using Cassandra.Tasks;
-using Cassandra.Requests;
-using Cassandra.Responses;
-using Cassandra.Serialization;
+using BWCassandra.Tasks;
+using BWCassandra.Requests;
+using BWCassandra.Responses;
+using BWCassandra.Serialization;
 
-namespace Cassandra
+namespace BWCassandra
 {
     internal class ControlConnection : IMetadataQueryProvider, IDisposable
     {

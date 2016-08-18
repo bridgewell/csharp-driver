@@ -16,10 +16,10 @@
 
 using System;
 using System.Linq;
-using Cassandra.Requests;
-using Cassandra.Serialization;
+using BWCassandra.Requests;
+using BWCassandra.Serialization;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  A prepared statement with values bound to the bind variables. <p> Once a
@@ -33,7 +33,7 @@ namespace Cassandra
     ///  you will have to set values by indexes (or the <c>PreparedStatement.Bind(object[])</c>
     ///  method) as the methods to set by name only allows to set the first prepared
     ///  occurrence of the column.</p>
-    /// <seealso cref="Cassandra.PreparedStatement"/>
+    /// <seealso cref="BWCassandra.PreparedStatement"/>
     /// </summary>
     public class BoundStatement : Statement
     {

@@ -21,16 +21,16 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Cassandra.Data.Linq;
-using Cassandra.Mapping;
-using Cassandra.Serialization;
-using Cassandra.Tests.Mapping.Pocos;
+using BWCassandra.Data.Linq;
+using BWCassandra.Mapping;
+using BWCassandra.Serialization;
+using BWCassandra.Tests.Mapping.Pocos;
 using Moq;
 using NUnit.Framework;
-using Cassandra.Tasks;
+using BWCassandra.Tasks;
 #pragma warning disable 618
 
-namespace Cassandra.Tests.Mapping.Linq
+namespace BWCassandra.Tests.Mapping.Linq
 {
     [TestFixture]
     public class LinqToCqlUnitTests : MappingTestBase

@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 using System.Text;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.Serialization;
-using Cassandra.Tests;
-using Cassandra.Tests.Extensions.Serializers;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.Serialization;
+using BWCassandra.Tests;
+using BWCassandra.Tests.Extensions.Serializers;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [Category("short")]
     public class TypeSerializersTests : SharedClusterTest

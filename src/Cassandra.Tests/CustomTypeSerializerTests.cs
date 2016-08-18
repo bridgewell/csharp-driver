@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cassandra.Serialization;
-using Cassandra.Tests.Extensions.Serializers;
+using BWCassandra.Serialization;
+using BWCassandra.Tests.Extensions.Serializers;
 using NUnit.Framework;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class CustomTypeSerializerTests

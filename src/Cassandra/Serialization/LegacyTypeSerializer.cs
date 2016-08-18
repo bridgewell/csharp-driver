@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Cassandra.Serialization
+namespace BWCassandra.Serialization
 {
     /// <summary>
     /// Legacy <see cref="ITypeSerializer"/> to support <see cref="ITypeAdapter"/>.

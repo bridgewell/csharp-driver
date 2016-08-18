@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cassandra.Data.Linq;
-using Cassandra.IntegrationTests.Linq.Structures;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.Mapping;
-using Cassandra.Tests.Mapping.Pocos;
+using BWCassandra.Data.Linq;
+using BWCassandra.IntegrationTests.Linq.Structures;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.Mapping;
+using BWCassandra.Tests.Mapping.Pocos;
 using NUnit.Framework;
 #pragma warning disable 618
 
-namespace Cassandra.IntegrationTests.Linq.LinqMethods
+namespace BWCassandra.IntegrationTests.Linq.LinqMethods
 {
     [Category("short")]
     public class Select : SharedClusterTest

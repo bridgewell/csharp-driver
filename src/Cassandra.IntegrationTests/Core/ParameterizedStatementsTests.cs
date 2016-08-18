@@ -15,14 +15,14 @@
 //
 
 ﻿using System.Linq;
-﻿using Cassandra.IntegrationTests.TestBase;
+﻿using BWCassandra.IntegrationTests.TestBase;
 ﻿using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Numerics;
-﻿using Cassandra.Serialization;
+﻿using BWCassandra.Serialization;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [Category("short")]
     [TestCassandraVersion(2, 0)]

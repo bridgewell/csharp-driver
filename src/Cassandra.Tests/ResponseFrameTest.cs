@@ -16,10 +16,10 @@
 
 using System;
 using System.IO;
-using Cassandra.Serialization;
+using BWCassandra.Serialization;
 using NUnit.Framework;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     public class ResponseFrameTest
     {

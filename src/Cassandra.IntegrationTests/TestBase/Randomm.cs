@@ -17,7 +17,7 @@
 using System;
 using System.Numerics;
 
-namespace Cassandra.IntegrationTests.TestBase
+namespace BWCassandra.IntegrationTests.TestBase
 {
     internal class Randomm : Random
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace Cassandra.Mapping
+namespace BWCassandra.Mapping
 {
     /// <summary>
     /// A class for defining how a property or field on a POCO is mapped to a column via a fluent-style interface.

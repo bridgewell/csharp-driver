@@ -21,9 +21,9 @@ using System.Net;
 using System.Text;
 ﻿using Moq;
 ﻿using NUnit.Framework;
-using DatacenterInfo = Cassandra.TokenMap.DatacenterInfo;
+using DatacenterInfo = BWCassandra.TokenMap.DatacenterInfo;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class TokenTests

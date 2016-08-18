@@ -17,7 +17,7 @@
 using System.Collections.Generic;
 using System.Net;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  A simple <c>AuthInfoProvider</c> implementation. <p> This provider

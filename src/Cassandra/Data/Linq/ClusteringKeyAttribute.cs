@@ -15,9 +15,9 @@
 //
 
 using System;
-using Cassandra.Mapping;
+using BWCassandra.Mapping;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     /// <summary>
     /// Indicates that the property or field is part of the Clustering Key

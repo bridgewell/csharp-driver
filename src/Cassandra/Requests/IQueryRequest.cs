@@ -14,7 +14,7 @@
 //   limitations under the License.
 //
 
-namespace Cassandra.Requests
+namespace BWCassandra.Requests
 {
     /// <summary>
     /// Represents a QUERY or EXECUTE request that can be included in a batch

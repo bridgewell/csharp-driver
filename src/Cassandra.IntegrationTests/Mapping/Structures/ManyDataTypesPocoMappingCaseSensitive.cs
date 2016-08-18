@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cassandra.Mapping;
+using BWCassandra.Mapping;
 
-namespace Cassandra.IntegrationTests.Mapping.Structures
+namespace BWCassandra.IntegrationTests.Mapping.Structures
 {
     class ManyDataTypesPocoMappingCaseSensitive : Map<ManyDataTypesPoco>
     {

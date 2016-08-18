@@ -18,7 +18,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Cassandra.Serialization
+namespace BWCassandra.Serialization
 {
     internal class DictionarySerializer : TypeSerializer<IDictionary>
     {

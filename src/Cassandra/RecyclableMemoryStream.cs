@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 // ---------------------------------------------------------------------
 
-using Cassandra.Collections;
+using BWCassandra.Collections;
 
 namespace Microsoft.IO
 {

@@ -19,7 +19,7 @@ using System.Diagnostics;
 using System.Security;
 using System.Threading;
 
-namespace Cassandra
+namespace BWCassandra
 {
     internal static class CassandraCounters
     {

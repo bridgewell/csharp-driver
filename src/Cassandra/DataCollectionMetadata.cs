@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Describes a table or materialized view in Cassandra

@@ -20,9 +20,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading;
-using Cassandra.Serialization;
+using BWCassandra.Serialization;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  Helper class to build <link>Cluster</link> instances.
@@ -412,7 +412,7 @@ namespace Cassandra
         /// Default timeout value is set to <code>20,000</code> (20 seconds).
         /// </summary>
         /// <remarks>
-        /// If you want to define a read timeout at a lower level, you can use <see cref="Cassandra.SocketOptions.SetReadTimeoutMillis(int)"/>.
+        /// If you want to define a read timeout at a lower level, you can use <see cref="BWCassandra.SocketOptions.SetReadTimeoutMillis(int)"/>.
         /// </remarks>
         /// <param name="queryAbortTimeout">Timeout specified in milliseconds.</param>
         /// <returns>this builder</returns>

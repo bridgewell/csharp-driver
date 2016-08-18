@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cassandra.Mapping;
-using Cassandra.Tasks;
-using Cassandra.Tests.Mapping.Pocos;
-using Cassandra.Tests.Mapping.TestData;
+using BWCassandra.Mapping;
+using BWCassandra.Tasks;
+using BWCassandra.Tests.Mapping.Pocos;
+using BWCassandra.Tests.Mapping.TestData;
 using Moq;
 using NUnit.Framework;
 
-namespace Cassandra.Tests.Mapping
+namespace BWCassandra.Tests.Mapping
 {
     [TestFixture]
     public class DeleteTests : MappingTestBase

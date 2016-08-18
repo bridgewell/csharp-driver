@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 // ReSharper disable once CheckNamespace
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// The policy that decides if the driver will send speculative queries to the next hosts when the current host takes too long to respond.

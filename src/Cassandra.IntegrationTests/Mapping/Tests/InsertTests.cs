@@ -18,15 +18,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using Cassandra.Data.Linq;
-using Cassandra.IntegrationTests.Mapping.Structures;
-using Cassandra.IntegrationTests.TestBase;
-using Cassandra.Mapping;
-using Cassandra.Serialization;
-using Cassandra.Tests.Mapping.Pocos;
+using BWCassandra.Data.Linq;
+using BWCassandra.IntegrationTests.Mapping.Structures;
+using BWCassandra.IntegrationTests.TestBase;
+using BWCassandra.Mapping;
+using BWCassandra.Serialization;
+using BWCassandra.Tests.Mapping.Pocos;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.Mapping.Tests
+namespace BWCassandra.IntegrationTests.Mapping.Tests
 {
     [Category("short")]
     public class InsertTests : SharedClusterTest

@@ -16,9 +16,9 @@
 
 using System;
 using System.IO;
-using Cassandra.Serialization;
+using BWCassandra.Serialization;
 
-namespace Cassandra
+namespace BWCassandra
 {
     internal class Frame
     {

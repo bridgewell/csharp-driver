@@ -16,7 +16,7 @@
 using System;
 using System.IO;
 
-namespace Cassandra.Compression
+namespace BWCassandra.Compression
 {
     internal class SnappyCompressor : IFrameCompressor
     {

@@ -16,7 +16,7 @@
 
 using System;
 
-namespace Cassandra.Mapping.Attributes
+namespace BWCassandra.Mapping.Attributes
 {
     /// <summary>
     /// Determines that there is a secondary index defined for the column

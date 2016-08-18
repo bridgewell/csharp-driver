@@ -5,10 +5,10 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
-using Cassandra.Responses;
-using Cassandra.Tasks;
+using BWCassandra.Responses;
+using BWCassandra.Tasks;
 
-namespace Cassandra.Requests
+namespace BWCassandra.Requests
 {
     internal class RequestExecution<T> where T : class
     {

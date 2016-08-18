@@ -1,8 +1,8 @@
 ﻿using System;
-using Cassandra.Mapping;
-using Cassandra.Tests.Mapping.Pocos;
+using BWCassandra.Mapping;
+using BWCassandra.Tests.Mapping.Pocos;
 
-namespace Cassandra.Tests.Mapping.FluentMappings
+namespace BWCassandra.Tests.Mapping.FluentMappings
 {
     /// <summary>
     /// Defines how to map the FluentUser class.

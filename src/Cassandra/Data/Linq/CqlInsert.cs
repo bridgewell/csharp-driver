@@ -17,10 +17,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Cassandra.Mapping;
-using Cassandra.Mapping.Statements;
+using BWCassandra.Mapping;
+using BWCassandra.Mapping.Statements;
 
-namespace Cassandra.Data.Linq
+namespace BWCassandra.Data.Linq
 {
     /// <summary>
     /// Represents an INSERT statement

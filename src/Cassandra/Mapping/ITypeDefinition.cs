@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace Cassandra.Mapping
+namespace BWCassandra.Mapping
 {
     /// <summary>
     /// A definition for how to map a POCO.

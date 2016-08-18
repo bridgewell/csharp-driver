@@ -21,12 +21,12 @@ using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 using System.Threading;
-using Cassandra.IntegrationTests.TestClusterManagement;
+using BWCassandra.IntegrationTests.TestClusterManagement;
 using CommandLine;
 using CommandLine.Text;
 using NUnit.Framework;
 
-namespace Cassandra.IntegrationTests.TestBase
+namespace BWCassandra.IntegrationTests.TestBase
 {
     public class TestGlobals
     {

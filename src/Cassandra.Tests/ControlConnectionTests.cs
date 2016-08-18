@@ -5,7 +5,7 @@ using System.Net;
 using Moq;
 using NUnit.Framework;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class ControlConnectionTests

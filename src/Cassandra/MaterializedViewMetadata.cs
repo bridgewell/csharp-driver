@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Describes a materialized view in Cassandra. 

@@ -21,10 +21,10 @@ using System.Linq;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Cassandra.Requests;
-using Cassandra.Tasks;
+using BWCassandra.Requests;
+using BWCassandra.Tasks;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  Keeps metadata on the connected cluster, including known nodes and schema
@@ -460,9 +460,9 @@ namespace Cassandra
                     Task.WaitAll(queries, Configuration.ClientOptions.QueryAbortTimeout);
                     var versions = new HashSet<Guid>
                     {
-                        Cassandra.ControlConnection.GetRowSet(queries[0].Result).First().GetValue<Guid>("schema_version")
+                        BWCassandra.ControlConnection.GetRowSet(queries[0].Result).First().GetValue<Guid>("schema_version")
                     };
-                    var peerVersions = Cassandra.ControlConnection.GetRowSet(queries[1].Result).Select(r => r.GetValue<Guid>("schema_version"));
+                    var peerVersions = BWCassandra.ControlConnection.GetRowSet(queries[1].Result).Select(r => r.GetValue<Guid>("schema_version"));
                     foreach (var v in peerVersions)
                     {
                         versions.Add(v);

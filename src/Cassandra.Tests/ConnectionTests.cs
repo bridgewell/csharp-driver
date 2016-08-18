@@ -5,13 +5,13 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading;
-using Cassandra.Responses;
-using Cassandra.Serialization;
+using BWCassandra.Responses;
+using BWCassandra.Serialization;
 using Microsoft.IO;
 using Moq;
 using NUnit.Framework;
 
-namespace Cassandra.Tests
+namespace BWCassandra.Tests
 {
     [TestFixture]
     public class ConnectionTests

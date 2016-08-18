@@ -17,7 +17,7 @@
 using System.Collections.Generic;
 using System.Net;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     ///  Authentication informations provider to connect to Cassandra nodes. <p> The

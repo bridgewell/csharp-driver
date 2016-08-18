@@ -1,5 +1,5 @@
 ﻿
-namespace Cassandra.Mapping
+namespace BWCassandra.Mapping
 {
     /// <summary>
     /// Specifies sort order

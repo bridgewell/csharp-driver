@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Cassandra.Data.Linq;
+using BWCassandra.Data.Linq;
 using NUnit.Framework;
 #pragma warning disable 618
 
-namespace Cassandra.IntegrationTests.CqlFunctions.Structures
+namespace BWCassandra.IntegrationTests.CqlFunctions.Structures
 {
     [Table("EntityWithNullableTimeUuid")]
     [AllowFiltering]

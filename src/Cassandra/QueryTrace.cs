@@ -18,9 +18,9 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
-using Cassandra.Tasks;
+using BWCassandra.Tasks;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// The Cassandra trace for a query. 

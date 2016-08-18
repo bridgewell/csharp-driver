@@ -17,7 +17,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Provides utility methods to build replication strategies when creating a keyspace

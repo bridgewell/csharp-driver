@@ -14,7 +14,7 @@
 //   limitations under the License.
 //
 
-using Cassandra.IntegrationTests.TestBase;
+using BWCassandra.IntegrationTests.TestBase;
 using Moq;
 using NUnit.Framework;
 using System;
@@ -28,14 +28,14 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Cassandra.Tasks;
-using Cassandra.Tests;
-using Cassandra.Requests;
-using Cassandra.Responses;
-using Cassandra.Serialization;
+using BWCassandra.Tasks;
+using BWCassandra.Tests;
+using BWCassandra.Requests;
+using BWCassandra.Responses;
+using BWCassandra.Serialization;
 using Microsoft.IO;
 
-namespace Cassandra.IntegrationTests.Core
+namespace BWCassandra.IntegrationTests.Core
 {
     [Timeout(600000), Category("short")]
     public class ConnectionTests : TestGlobals
@@ -417,7 +417,7 @@ namespace Cassandra.IntegrationTests.Core
         [Test]
         public void Ssl_Connect_With_Ssl_Disabled_Host()
         {
-            var config = new Configuration(Cassandra.Policies.DefaultPolicies, 
+            var config = new Configuration(BWCassandra.Policies.DefaultPolicies, 
                 new ProtocolOptions(ProtocolOptions.DefaultPort, new SSLOptions()),
                 new PoolingOptions(),
                  new SocketOptions().SetConnectTimeoutMillis(200),
@@ -583,7 +583,7 @@ namespace Cassandra.IntegrationTests.Core
             var socketOptions = new SocketOptions();
             socketOptions.SetConnectTimeoutMillis(1000);
             var config = new Configuration(
-                new Cassandra.Policies(), 
+                new BWCassandra.Policies(), 
                 new ProtocolOptions(), 
                 new PoolingOptions(), 
                 socketOptions, 
@@ -754,7 +754,7 @@ namespace Cassandra.IntegrationTests.Core
                 protocolOptions = new ProtocolOptions();
             }
             var config = new Configuration(
-                new Cassandra.Policies(),
+                new BWCassandra.Policies(),
                 protocolOptions,
                 poolingOptions,
                 socketOptions,

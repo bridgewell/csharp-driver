@@ -15,7 +15,7 @@
 //
 using System.Text;
 
-namespace Cassandra.Serialization.Primitive
+namespace BWCassandra.Serialization.Primitive
 {
     internal class StringSerializer : TypeSerializer<string>
     {

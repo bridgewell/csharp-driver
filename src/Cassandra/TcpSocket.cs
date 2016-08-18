@@ -21,10 +21,10 @@ using System.Net.Security;
 using System.Net.Sockets;
 ﻿using System.Threading;
 ﻿using System.Threading.Tasks;
-﻿using Cassandra.Tasks;
+﻿using BWCassandra.Tasks;
 using Microsoft.IO;
 
-namespace Cassandra
+namespace BWCassandra
 {
     /// <summary>
     /// Represents a Tcp connection to a host.
