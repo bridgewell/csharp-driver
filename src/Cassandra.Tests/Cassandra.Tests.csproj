@@ -7,8 +7,8 @@
     <ProjectGuid>{49996688-1380-4854-A32C-048C4014E478}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Cassandra.Tests</RootNamespace>
-    <AssemblyName>Cassandra.Tests</AssemblyName>
+    <RootNamespace>BWCassandra.Tests</RootNamespace>
+    <AssemblyName>BWCassandra.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

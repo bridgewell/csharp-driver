@@ -7,8 +7,8 @@
     <ProjectGuid>{D584651E-23C0-4714-9B92-6113C44BA6B8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Cassandra.IntegrationTests</RootNamespace>
-    <AssemblyName>Cassandra.IntegrationTests</AssemblyName>
+    <RootNamespace>BWCassandra.IntegrationTests</RootNamespace>
+    <AssemblyName>BWCassandra.IntegrationTests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

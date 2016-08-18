@@ -8,8 +8,8 @@
     <ProjectGuid>{6E8C45DA-D958-4C75-98C3-B54C883299A2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Cassandra</RootNamespace>
-    <AssemblyName>Cassandra</AssemblyName>
+    <RootNamespace>BWCassandra</RootNamespace>
+    <AssemblyName>BWCassandra</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
@@ -39,7 +39,7 @@
     <DefineConstants>TRACE;ERRORINJECTION</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Cassandra.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\BWCassandra.xml</DocumentationFile>
     <NoWarn>1591</NoWarn>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <LangVersion>4</LangVersion>
