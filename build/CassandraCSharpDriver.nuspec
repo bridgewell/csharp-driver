@@ -23,7 +23,7 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="Cassandra\bin\Release\BWCassandra.dll" target="lib\net40\Cassandra.dll "/>
-        <file src="Cassandra\bin\Release\BWCassandra.xml" target="lib\net40\Cassandra.xml "/>
+        <file src="Cassandra\bin\Release\BWCassandra.dll" target="lib\net40\BWCassandra.dll "/>
+        <file src="Cassandra\bin\Release\BWCassandra.xml" target="lib\net40\BWCassandra.xml "/>
     </files>
 </package>
